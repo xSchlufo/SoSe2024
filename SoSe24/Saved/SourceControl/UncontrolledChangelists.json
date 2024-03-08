@@ -11,9 +11,27 @@
 				"D:/Joni/Unreal/WISE23/SoSe2024/SoSe24/Content/Blockout/SM_Blockout_SM_Blockout_Cube.uasset",
 				"D:/Joni/Unreal/WISE23/SoSe2024/SoSe24/Content/Blockout/SM_Blockout_SM_Blockout_Cylinder.uasset",
 				"D:/Joni/Unreal/WISE23/SoSe2024/SoSe24/Content/Blockout/SM_Blockout_SM_Blockout_Slope.uasset",
-				"D:/Joni/Unreal/WISE23/SoSe2024/SoSe24/Content/Materials/Textures/5x5Grid.uasset",
 				"D:/Joni/Unreal/WISE23/SoSe2024/SoSe24/Content/Textures/5x5Grid.uasset",
-				"D:/Joni/Unreal/WISE23/SoSe2024/SoSe24/Content/Materials/M_Blockout.uasset"
+				"D:/Joni/Unreal/WISE23/SoSe2024/SoSe24/Content/Materials/M_Blockout.uasset",
+				"D:/Joni/Unreal/WISE23/SoSe2024/SoSe24/Content/Materials/MI_BlockoutGrey.uasset",
+				"D:/Joni/Unreal/WISE23/SoSe2024/SoSe24/Content/Blueprints/BP_Player.uasset",
+				"D:/Joni/Unreal/WISE23/SoSe2024/SoSe24/Content/Blueprints/GM_Basic.uasset",
+				"D:/Joni/Unreal/WISE23/SoSe2024/SoSe24/Content/Blueprints/GameModes/GM_Basic.uasset",
+				"D:/Joni/Unreal/WISE23/SoSe2024/SoSe24/Content/Inputs/IA_Move.uasset",
+				"D:/Joni/Unreal/WISE23/SoSe2024/SoSe24/Content/Inputs/IMC_Player.uasset",
+				"D:/Joni/Unreal/WISE23/SoSe2024/SoSe24/Content/Inputs/IA_Look.uasset",
+				"D:/Joni/Unreal/WISE23/SoSe2024/SoSe24/Content/UI/WBP_GameUI.uasset",
+				"D:/Joni/Unreal/WISE23/SoSe2024/SoSe24/Content/UI/WBP_GameplayUI.uasset",
+				"D:/Joni/Unreal/WISE23/SoSe2024/SoSe24/Content/Materials/UI/M_Crosshair.uasset",
+				"D:/Joni/Unreal/WISE23/SoSe2024/SoSe24/Content/Materials/Blockout/M_Blockout.uasset",
+				"D:/Joni/Unreal/WISE23/SoSe2024/SoSe24/Content/Materials/Blockout/MI_BlockoutGrey.uasset",
+				"D:/Joni/Unreal/WISE23/SoSe2024/SoSe24/Content/Materials/PostProcess/PPM_Tutorial.uasset",
+				"D:/Joni/Unreal/WISE23/SoSe2024/SoSe24/Content/Materials/Overlays/M_Outline.uasset",
+				"D:/Joni/Unreal/WISE23/SoSe2024/SoSe24/Content/Textures/Hex_Basic.uasset",
+				"D:/Joni/Unreal/WISE23/SoSe2024/SoSe24/Content/Textures/Intertwined_Squares_02_basecolor.uasset",
+				"D:/Joni/Unreal/WISE23/SoSe2024/SoSe24/Content/Textures/Intertwined_Squares_basecolor.uasset",
+				"D:/Joni/Unreal/WISE23/SoSe2024/SoSe24/Content/Materials/Overlays/M_WaveyTexture.uasset",
+				"D:/Joni/Unreal/WISE23/SoSe2024/SoSe24/Content/Materials/Textures/5x5Grid.uasset"
 			]
 		}
 	]
