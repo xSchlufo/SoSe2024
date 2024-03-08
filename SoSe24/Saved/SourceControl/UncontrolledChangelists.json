@@ -1,0 +1,13 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"D:/Joni/Unreal/WISE23/SoSe2024/SoSe24/Content/L_Unterricht.umap",
+				"D:/Joni/Unreal/WISE23/SoSe2024/SoSe24/Content/Maps/L_Unterricht.umap"
+			]
+		}
+	]
+}
