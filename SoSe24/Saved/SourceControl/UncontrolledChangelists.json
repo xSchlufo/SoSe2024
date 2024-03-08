@@ -6,7 +6,14 @@
 			"description": "Default Uncontrolled Changelist",
 			"files": [
 				"D:/Joni/Unreal/WISE23/SoSe2024/SoSe24/Content/L_Unterricht.umap",
-				"D:/Joni/Unreal/WISE23/SoSe2024/SoSe24/Content/Maps/L_Unterricht.umap"
+				"D:/Joni/Unreal/WISE23/SoSe2024/SoSe24/Content/Maps/L_Unterricht.umap",
+				"D:/Joni/Unreal/WISE23/SoSe2024/SoSe24/Content/Blockout/SM_Blockout_SM_Blockout_Corner.uasset",
+				"D:/Joni/Unreal/WISE23/SoSe2024/SoSe24/Content/Blockout/SM_Blockout_SM_Blockout_Cube.uasset",
+				"D:/Joni/Unreal/WISE23/SoSe2024/SoSe24/Content/Blockout/SM_Blockout_SM_Blockout_Cylinder.uasset",
+				"D:/Joni/Unreal/WISE23/SoSe2024/SoSe24/Content/Blockout/SM_Blockout_SM_Blockout_Slope.uasset",
+				"D:/Joni/Unreal/WISE23/SoSe2024/SoSe24/Content/Materials/Textures/5x5Grid.uasset",
+				"D:/Joni/Unreal/WISE23/SoSe2024/SoSe24/Content/Textures/5x5Grid.uasset",
+				"D:/Joni/Unreal/WISE23/SoSe2024/SoSe24/Content/Materials/M_Blockout.uasset"
 			]
 		}
 	]

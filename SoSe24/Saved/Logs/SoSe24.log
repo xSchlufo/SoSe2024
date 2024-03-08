@@ -1249,3 +1249,982 @@ Otherwise assets can be missing from cooked builds. Continue with rename?
 [2024.03.08-08.14.12:728][282]LogSlate: Took 0.000459 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
 [2024.03.08-08.14.31:427][  8]LogSlate: Window 'Color Picker' being destroyed
 [2024.03.08-08.14.41:824][  6]LogSlate: Window 'Color Picker' being destroyed
+[2024.03.08-08.37.20:306][116]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2024.03.08-08.37.20:319][116]LogContentBrowser: Creating deferred item: NewFolder
+[2024.03.08-08.37.20:328][117]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2024.03.08-08.37.22:846][351]LogContentBrowser: Attempting asset rename: NewFolder -> Blockout
+[2024.03.08-08.37.22:847][351]LogContentBrowser: End creating deferred item NewFolder
+[2024.03.08-08.37.40:874][662]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:\Joni\Blender\BlockoutMashes\SM_Blockout.fbx)
+[2024.03.08-08.37.41:575][662]LogFbx: Loading FBX Scene from D:\Joni\Blender\BlockoutMashes\SM_Blockout.fbx
+[2024.03.08-08.37.41:689][662]LogFbx: FBX Scene Loaded Succesfully
+[2024.03.08-08.37.53:869][662]LogSlate: Window 'FBX Import Options' being destroyed
+[2024.03.08-08.37.54:031][662]LogFbx: Display: Triangulating static mesh SM_Blockout_Cube
+[2024.03.08-08.37.54:157][662]LogStaticMesh: Display: Building static mesh SM_Blockout_SM_Blockout_Cube...
+[2024.03.08-08.37.54:159][662]LogStaticMesh: Built static mesh [0.00s] /Game/SM_Blockout_SM_Blockout_Cube.SM_Blockout_SM_Blockout_Cube
+[2024.03.08-08.37.54:333][662]LogFbx: Display: Triangulating static mesh SM_Blockout_Slope
+[2024.03.08-08.37.54:334][662]LogStaticMesh: Display: Building static mesh SM_Blockout_SM_Blockout_Slope...
+[2024.03.08-08.37.54:337][662]LogStaticMesh: Built static mesh [0.00s] /Game/SM_Blockout_SM_Blockout_Slope.SM_Blockout_SM_Blockout_Slope
+[2024.03.08-08.37.54:344][662]LogFbx: Display: Triangulating static mesh SM_Blockout_Cylinder
+[2024.03.08-08.37.54:346][662]LogStaticMesh: Display: Building static mesh SM_Blockout_SM_Blockout_Cylinder...
+[2024.03.08-08.37.54:353][662]LogStaticMesh: Built static mesh [0.01s] /Game/SM_Blockout_SM_Blockout_Cylinder.SM_Blockout_SM_Blockout_Cylinder
+[2024.03.08-08.37.54:361][662]LogFbx: Display: Triangulating static mesh SM_Blockout_Corner
+[2024.03.08-08.37.54:362][662]LogStaticMesh: Display: Building static mesh SM_Blockout_SM_Blockout_Corner...
+[2024.03.08-08.37.54:367][662]LogStaticMesh: Built static mesh [0.00s] /Game/SM_Blockout_SM_Blockout_Corner.SM_Blockout_SM_Blockout_Corner
+[2024.03.08-08.37.54:430][662]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2024.03.08-08.37.54:705][663]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.08-08.37.57:762][880]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2024.03.08-08.37.57:763][880]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/L_Unterricht' took 0.010
+[2024.03.08-08.37.57:764][880]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SM_Blockout_SM_Blockout_Corner] ([1] browsable assets)...
+[2024.03.08-08.37.57:794][880]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/SM_Blockout_SM_Blockout_Corner.SM_Blockout_SM_Blockout_Corner]
+[2024.03.08-08.37.57:794][880]OBJ SavePackage: Finished generating thumbnails for package [/Game/SM_Blockout_SM_Blockout_Corner]
+[2024.03.08-08.37.57:910][880]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/SM_Blockout_SM_Blockout_Corner_Auto1
+[2024.03.08-08.37.57:910][880]LogSavePackage: Moving '../../../../../Unreal/WISE23/SoSe2024/SoSe24/Saved/SM_Blockout_SM_Blockout_Corner_A7AF7168D48324A7D0407B5B21122CF0B.tmp' to '../../../../../Unreal/WISE23/SoSe2024/SoSe24/Saved/Autosaves/Game/SM_Blockout_SM_Blockout_Corner_Auto1.uasset'
+[2024.03.08-08.37.57:911][880]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SM_Blockout_SM_Blockout_Cube] ([1] browsable assets)...
+[2024.03.08-08.37.57:919][880]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/SM_Blockout_SM_Blockout_Cube.SM_Blockout_SM_Blockout_Cube]
+[2024.03.08-08.37.57:919][880]OBJ SavePackage: Finished generating thumbnails for package [/Game/SM_Blockout_SM_Blockout_Cube]
+[2024.03.08-08.37.57:922][880]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/SM_Blockout_SM_Blockout_Cube_Auto1
+[2024.03.08-08.37.57:922][880]LogSavePackage: Moving '../../../../../Unreal/WISE23/SoSe2024/SoSe24/Saved/SM_Blockout_SM_Blockout_Cube_Aut38F680F34B148E972B0694B7E90039A3.tmp' to '../../../../../Unreal/WISE23/SoSe2024/SoSe24/Saved/Autosaves/Game/SM_Blockout_SM_Blockout_Cube_Auto1.uasset'
+[2024.03.08-08.37.57:923][880]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SM_Blockout_SM_Blockout_Slope] ([1] browsable assets)...
+[2024.03.08-08.37.57:930][880]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/SM_Blockout_SM_Blockout_Slope.SM_Blockout_SM_Blockout_Slope]
+[2024.03.08-08.37.57:930][880]OBJ SavePackage: Finished generating thumbnails for package [/Game/SM_Blockout_SM_Blockout_Slope]
+[2024.03.08-08.37.57:933][880]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/SM_Blockout_SM_Blockout_Slope_Auto1
+[2024.03.08-08.37.57:933][880]LogSavePackage: Moving '../../../../../Unreal/WISE23/SoSe2024/SoSe24/Saved/SM_Blockout_SM_Blockout_Slope_Au4D8347E646A704048AEEE984377DDD10.tmp' to '../../../../../Unreal/WISE23/SoSe2024/SoSe24/Saved/Autosaves/Game/SM_Blockout_SM_Blockout_Slope_Auto1.uasset'
+[2024.03.08-08.37.57:934][880]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SM_Blockout_SM_Blockout_Cylinder] ([1] browsable assets)...
+[2024.03.08-08.37.57:942][880]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/SM_Blockout_SM_Blockout_Cylinder.SM_Blockout_SM_Blockout_Cylinder]
+[2024.03.08-08.37.57:942][880]OBJ SavePackage: Finished generating thumbnails for package [/Game/SM_Blockout_SM_Blockout_Cylinder]
+[2024.03.08-08.37.57:945][880]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/SM_Blockout_SM_Blockout_Cylinder_Auto1
+[2024.03.08-08.37.57:945][880]LogSavePackage: Moving '../../../../../Unreal/WISE23/SoSe2024/SoSe24/Saved/SM_Blockout_SM_Blockout_Cylinder56255B054AB593144D42A1B55986FCA7.tmp' to '../../../../../Unreal/WISE23/SoSe2024/SoSe24/Saved/Autosaves/Game/SM_Blockout_SM_Blockout_Cylinder_Auto1.uasset'
+[2024.03.08-08.37.57:946][880]LogFileHelpers: Auto-saving content packages took 0.182
+[2024.03.08-08.37.59:191][986]LogSlate: Window 'Content Browser' being destroyed
+[2024.03.08-08.37.59:201][986]LogSlate: Window 'Content Browser' being destroyed
+[2024.03.08-08.38.00:685][109]LogSlate: Window 'Message Log' being destroyed
+[2024.03.08-08.38.00:692][109]LogSlate: Window 'Message Log' being destroyed
+[2024.03.08-08.38.05:652][531]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.08-08.38.05:692][531]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blockout/SM_Blockout_SM_Blockout_Corner" FILE="../../../../../Unreal/WISE23/SoSe2024/SoSe24/Content/Blockout/SM_Blockout_SM_Blockout_Corner.uasset" SILENT=true
+[2024.03.08-08.38.05:694][531]LogSavePackage: Moving output files for package: /Game/Blockout/SM_Blockout_SM_Blockout_Corner
+[2024.03.08-08.38.05:694][531]LogSavePackage: Moving '../../../../../Unreal/WISE23/SoSe2024/SoSe24/Saved/SM_Blockout_SM_Blockout_Corner46C025A647FFFC01E17002AFF5B5A34C.tmp' to '../../../../../Unreal/WISE23/SoSe2024/SoSe24/Content/Blockout/SM_Blockout_SM_Blockout_Corner.uasset'
+[2024.03.08-08.38.05:695][531]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blockout/SM_Blockout_SM_Blockout_Cube" FILE="../../../../../Unreal/WISE23/SoSe2024/SoSe24/Content/Blockout/SM_Blockout_SM_Blockout_Cube.uasset" SILENT=true
+[2024.03.08-08.38.05:697][531]LogSavePackage: Moving output files for package: /Game/Blockout/SM_Blockout_SM_Blockout_Cube
+[2024.03.08-08.38.05:698][531]LogSavePackage: Moving '../../../../../Unreal/WISE23/SoSe2024/SoSe24/Saved/SM_Blockout_SM_Blockout_CubeEEB6DDE3468765FBD738CDAFD9AFF2A9.tmp' to '../../../../../Unreal/WISE23/SoSe2024/SoSe24/Content/Blockout/SM_Blockout_SM_Blockout_Cube.uasset'
+[2024.03.08-08.38.05:698][531]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blockout/SM_Blockout_SM_Blockout_Cylinder" FILE="../../../../../Unreal/WISE23/SoSe2024/SoSe24/Content/Blockout/SM_Blockout_SM_Blockout_Cylinder.uasset" SILENT=true
+[2024.03.08-08.38.05:701][531]LogSavePackage: Moving output files for package: /Game/Blockout/SM_Blockout_SM_Blockout_Cylinder
+[2024.03.08-08.38.05:701][531]LogSavePackage: Moving '../../../../../Unreal/WISE23/SoSe2024/SoSe24/Saved/SM_Blockout_SM_Blockout_CylinderC3BA5CD140D585205CFAD5AAE98BCC5F.tmp' to '../../../../../Unreal/WISE23/SoSe2024/SoSe24/Content/Blockout/SM_Blockout_SM_Blockout_Cylinder.uasset'
+[2024.03.08-08.38.05:702][531]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blockout/SM_Blockout_SM_Blockout_Slope" FILE="../../../../../Unreal/WISE23/SoSe2024/SoSe24/Content/Blockout/SM_Blockout_SM_Blockout_Slope.uasset" SILENT=true
+[2024.03.08-08.38.05:704][531]LogSavePackage: Moving output files for package: /Game/Blockout/SM_Blockout_SM_Blockout_Slope
+[2024.03.08-08.38.05:704][531]LogSavePackage: Moving '../../../../../Unreal/WISE23/SoSe2024/SoSe24/Saved/SM_Blockout_SM_Blockout_SlopeFF671742491F3295CC0C4AA0851B6AC7.tmp' to '../../../../../Unreal/WISE23/SoSe2024/SoSe24/Content/Blockout/SM_Blockout_SM_Blockout_Slope.uasset'
+[2024.03.08-08.38.05:716][531]LogFileHelpers: InternalPromptForCheckoutAndSave took 63 ms (total: 172 ms)
+[2024.03.08-08.38.05:775][531]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2024.03.08-08.38.05:781][531]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2024.03.08-08.38.05:785][531]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2024.03.08-08.38.05:806][531]AssetCheck: New page: Asset Save: multiple assets
+[2024.03.08-08.38.05:806][531]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Blockout/SM_Blockout_SM_Blockout_Corner.SM_Blockout_SM_Blockout_Corner
+[2024.03.08-08.38.05:806][531]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Blockout/SM_Blockout_SM_Blockout_Cube.SM_Blockout_SM_Blockout_Cube
+[2024.03.08-08.38.05:806][531]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Blockout/SM_Blockout_SM_Blockout_Cylinder.SM_Blockout_SM_Blockout_Cylinder
+[2024.03.08-08.38.05:806][531]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Blockout/SM_Blockout_SM_Blockout_Slope.SM_Blockout_SM_Blockout_Slope
+[2024.03.08-08.38.13:093][171]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Blockout/SM_Blockout_SM_Blockout_Corner.SM_Blockout_SM_Blockout_Corner
+[2024.03.08-08.38.13:093][171]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Blockout/SM_Blockout_SM_Blockout_Corner.SM_Blockout_SM_Blockout_Corner
+[2024.03.08-08.38.13:094][171]LogActorFactory: Actor Factory spawned StaticMesh /Game/Blockout/SM_Blockout_SM_Blockout_Corner.SM_Blockout_SM_Blockout_Corner as actor: StaticMeshActor /Game/Maps/L_Unterricht.L_Unterricht:PersistentLevel.StaticMeshActor_0
+[2024.03.08-08.38.13:127][171]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Blockout/SM_Blockout_SM_Blockout_Cube.SM_Blockout_SM_Blockout_Cube
+[2024.03.08-08.38.13:127][171]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Blockout/SM_Blockout_SM_Blockout_Cube.SM_Blockout_SM_Blockout_Cube
+[2024.03.08-08.38.13:127][171]LogActorFactory: Actor Factory spawned StaticMesh /Game/Blockout/SM_Blockout_SM_Blockout_Cube.SM_Blockout_SM_Blockout_Cube as actor: StaticMeshActor /Game/Maps/L_Unterricht.L_Unterricht:PersistentLevel.StaticMeshActor_2
+[2024.03.08-08.38.13:128][171]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Blockout/SM_Blockout_SM_Blockout_Cylinder.SM_Blockout_SM_Blockout_Cylinder
+[2024.03.08-08.38.13:128][171]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Blockout/SM_Blockout_SM_Blockout_Cylinder.SM_Blockout_SM_Blockout_Cylinder
+[2024.03.08-08.38.13:128][171]LogActorFactory: Actor Factory spawned StaticMesh /Game/Blockout/SM_Blockout_SM_Blockout_Cylinder.SM_Blockout_SM_Blockout_Cylinder as actor: StaticMeshActor /Game/Maps/L_Unterricht.L_Unterricht:PersistentLevel.StaticMeshActor_3
+[2024.03.08-08.38.13:129][171]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Blockout/SM_Blockout_SM_Blockout_Slope.SM_Blockout_SM_Blockout_Slope
+[2024.03.08-08.38.13:129][171]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Blockout/SM_Blockout_SM_Blockout_Slope.SM_Blockout_SM_Blockout_Slope
+[2024.03.08-08.38.13:129][171]LogActorFactory: Actor Factory spawned StaticMesh /Game/Blockout/SM_Blockout_SM_Blockout_Slope.SM_Blockout_SM_Blockout_Slope as actor: StaticMeshActor /Game/Maps/L_Unterricht.L_Unterricht:PersistentLevel.StaticMeshActor_4
+[2024.03.08-08.38.14:123][248]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Blockout/SM_Blockout_SM_Blockout_Corner.SM_Blockout_SM_Blockout_Corner
+[2024.03.08-08.38.14:123][248]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Blockout/SM_Blockout_SM_Blockout_Corner.SM_Blockout_SM_Blockout_Corner
+[2024.03.08-08.38.14:158][248]LogActorFactory: Actor Factory spawned StaticMesh /Game/Blockout/SM_Blockout_SM_Blockout_Corner.SM_Blockout_SM_Blockout_Corner as actor: StaticMeshActor /Game/Maps/L_Unterricht.L_Unterricht:PersistentLevel.StaticMeshActor_5
+[2024.03.08-08.38.14:592][248]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Blockout/SM_Blockout_SM_Blockout_Cube.SM_Blockout_SM_Blockout_Cube
+[2024.03.08-08.38.14:592][248]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Blockout/SM_Blockout_SM_Blockout_Cube.SM_Blockout_SM_Blockout_Cube
+[2024.03.08-08.38.14:592][248]LogActorFactory: Actor Factory spawned StaticMesh /Game/Blockout/SM_Blockout_SM_Blockout_Cube.SM_Blockout_SM_Blockout_Cube as actor: StaticMeshActor /Game/Maps/L_Unterricht.L_Unterricht:PersistentLevel.StaticMeshActor_6
+[2024.03.08-08.38.14:623][248]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Blockout/SM_Blockout_SM_Blockout_Cylinder.SM_Blockout_SM_Blockout_Cylinder
+[2024.03.08-08.38.14:623][248]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Blockout/SM_Blockout_SM_Blockout_Cylinder.SM_Blockout_SM_Blockout_Cylinder
+[2024.03.08-08.38.14:624][248]LogActorFactory: Actor Factory spawned StaticMesh /Game/Blockout/SM_Blockout_SM_Blockout_Cylinder.SM_Blockout_SM_Blockout_Cylinder as actor: StaticMeshActor /Game/Maps/L_Unterricht.L_Unterricht:PersistentLevel.StaticMeshActor_7
+[2024.03.08-08.38.14:655][248]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Blockout/SM_Blockout_SM_Blockout_Slope.SM_Blockout_SM_Blockout_Slope
+[2024.03.08-08.38.14:655][248]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Blockout/SM_Blockout_SM_Blockout_Slope.SM_Blockout_SM_Blockout_Slope
+[2024.03.08-08.38.14:656][248]LogActorFactory: Actor Factory spawned StaticMesh /Game/Blockout/SM_Blockout_SM_Blockout_Slope.SM_Blockout_SM_Blockout_Slope as actor: StaticMeshActor /Game/Maps/L_Unterricht.L_Unterricht:PersistentLevel.StaticMeshActor_8
+[2024.03.08-08.38.41:063][366]Cmd: SELECT NONE
+[2024.03.08-08.39.08:901][942]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2024.03.08-08.39.09:895][942]LogSlate: Window 'Save Content' being destroyed
+[2024.03.08-08.39.09:938][942]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.08-08.39.09:976][942]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/L_Unterricht" FILE="../../../../../Unreal/WISE23/SoSe2024/SoSe24/Content/Maps/L_Unterricht.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.03.08-08.39.10:004][942]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2024.03.08-08.39.10:015][942]LogSavePackage: Moving output files for package: /Game/Maps/L_Unterricht
+[2024.03.08-08.39.10:016][942]LogSavePackage: Moving '../../../../../Unreal/WISE23/SoSe2024/SoSe24/Saved/L_Unterricht4A5BFE63446930AB1A3C2CB561BB1B1C.tmp' to '../../../../../Unreal/WISE23/SoSe2024/SoSe24/Content/Maps/L_Unterricht.umap'
+[2024.03.08-08.39.10:025][942]LogFileHelpers: Saving map 'L_Unterricht' took 0.049
+[2024.03.08-08.39.10:039][942]LogFileHelpers: InternalPromptForCheckoutAndSave took 100 ms (total: 273 ms)
+[2024.03.08-08.39.10:041][942]AssetCheck: New page: Asset Save: L_Unterricht
+[2024.03.08-08.39.10:041][942]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/L_Unterricht.L_Unterricht
+[2024.03.08-08.40.37:873][ 81]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2024.03.08-08.40.37:888][ 81]LogContentBrowser: Creating deferred item: NewFolder
+[2024.03.08-08.40.37:897][ 82]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2024.03.08-08.40.40:403][306]LogContentBrowser: Attempting asset rename: NewFolder -> Materials
+[2024.03.08-08.40.40:403][306]LogContentBrowser: End creating deferred item NewFolder
+[2024.03.08-08.40.54:464][585]LogSlate: Window 'Color Picker' being destroyed
+[2024.03.08-08.41.01:633][957]LogInterchangeEngine: [Pending] Importing
+[2024.03.08-08.41.01:633][957]LogInterchangeEngine: Display: Interchange start importing source [D:/Joni/Blender/BlockoutMashes/5x5Grid.png]
+[2024.03.08-08.41.01:652][958]LogInterchangeEngine: [Pending] Importing
+[2024.03.08-08.41.01:963][958]LogTexture: Display: Building textures: /Game/Materials/5x5Grid.5x5Grid (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 105.645823 MB), EncodeSpeed: Fast
+[2024.03.08-08.41.02:007][959]LogInterchangeEngine: [Success] Import Done
+[2024.03.08-08.41.02:018][959]LogInterchangeEngine: [Success] Import Done
+[2024.03.08-08.41.17:024][851]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2024.03.08-08.41.17:040][851]LogContentBrowser: Creating deferred item: NewFolder
+[2024.03.08-08.41.17:048][852]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2024.03.08-08.41.21:329][232]LogContentBrowser: Attempting asset rename: NewFolder -> Textures
+[2024.03.08-08.41.21:329][232]LogContentBrowser: End creating deferred item NewFolder
+[2024.03.08-08.41.24:432][527]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.08-08.41.24:469][527]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Textures/5x5Grid" FILE="../../../../../Unreal/WISE23/SoSe2024/SoSe24/Content/Materials/Textures/5x5Grid.uasset" SILENT=true
+[2024.03.08-08.41.24:560][527]LogSavePackage: Moving output files for package: /Game/Materials/Textures/5x5Grid
+[2024.03.08-08.41.24:560][527]LogSavePackage: Moving '../../../../../Unreal/WISE23/SoSe2024/SoSe24/Saved/5x5GridB9718AE84B24AC714CA03CBA830924EF.tmp' to '../../../../../Unreal/WISE23/SoSe2024/SoSe24/Content/Materials/Textures/5x5Grid.uasset'
+[2024.03.08-08.41.24:571][527]LogFileHelpers: InternalPromptForCheckoutAndSave took 137 ms (total: 411 ms)
+[2024.03.08-08.41.24:579][527]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2024.03.08-08.41.24:584][527]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2024.03.08-08.41.24:589][527]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2024.03.08-08.41.24:605][527]AssetCheck: New page: Asset Save: 5x5Grid
+[2024.03.08-08.41.24:605][527]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Materials/Textures/5x5Grid.5x5Grid
+[2024.03.08-08.41.29:798][147]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Brush 'ContentBrowser.ListViewFolderIcon.Base'.'
+[2024.03.08-08.41.29:798][147]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Brush 'ContentBrowser.ListViewFolderIcon.Mask'.'
+[2024.03.08-08.41.32:140][404]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.08-08.41.32:183][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/5x5Grid" FILE="../../../../../Unreal/WISE23/SoSe2024/SoSe24/Content/Textures/5x5Grid.uasset" SILENT=true
+[2024.03.08-08.41.32:191][404]LogSavePackage: Moving output files for package: /Game/Textures/5x5Grid
+[2024.03.08-08.41.32:191][404]LogSavePackage: Moving '../../../../../Unreal/WISE23/SoSe2024/SoSe24/Saved/5x5GridDADE49C84AFD26B919B2459CAB586A24.tmp' to '../../../../../Unreal/WISE23/SoSe2024/SoSe24/Content/Textures/5x5Grid.uasset'
+[2024.03.08-08.41.32:201][404]LogFileHelpers: InternalPromptForCheckoutAndSave took 61 ms (total: 472 ms)
+[2024.03.08-08.41.32:257][404]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2024.03.08-08.41.32:262][404]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2024.03.08-08.41.32:266][404]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2024.03.08-08.41.32:290][404]AssetCheck: New page: Asset Save: 5x5Grid
+[2024.03.08-08.41.32:291][404]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Textures/5x5Grid.5x5Grid
+[2024.03.08-08.41.53:181][491]LogSlate: Window 'Color Picker' being destroyed
+[2024.03.08-08.42.07:662][826]LogSlate: Window 'Color Picker' being destroyed
+[2024.03.08-08.42.38:437][378]LogContentBrowser: Deferred new asset file creation: NewMaterial
+[2024.03.08-08.42.38:447][378]LogContentBrowser: Creating deferred item: NewMaterial
+[2024.03.08-08.42.38:484][380]LogContentBrowser: Renaming the item being created (Deferred Item: NewMaterial).
+[2024.03.08-08.42.42:695][763]LogContentBrowser: Attempting asset rename: NewMaterial -> M_Blockout
+[2024.03.08-08.42.42:699][763]LogContentBrowser: End creating deferred item NewMaterial
+[2024.03.08-08.42.43:918][872]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Materials/M_Blockout.M_Blockout
+[2024.03.08-08.42.44:516][872]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.08-08.42.44:516][872]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.08-08.42.46:866][872]MaterialEditorStats: Texture samplers: 0/16
+[2024.03.08-08.42.46:866][872]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.03.08-08.42.46:866][872]MaterialEditorStats: Shader Count: 0
+[2024.03.08-08.42.46:906][872]LogSlate: Took 0.000289 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2024.03.08-08.42.46:911][872]LogViewport: Scene viewport resized to 242x266, mode Windowed.
+[2024.03.08-08.42.49:272][918]LogViewport: Scene viewport resized to 241x278, mode Windowed.
+[2024.03.08-08.42.49:392][920]LogViewport: Scene viewport resized to 157x165, mode Windowed.
+[2024.03.08-08.42.49:429][921]LogViewport: Scene viewport resized to 151x157, mode Windowed.
+[2024.03.08-08.42.49:571][935]LogViewport: Scene viewport resized to 376x448, mode Windowed.
+[2024.03.08-08.42.49:890][970]LogSlate: Window 'M_Blockout' being destroyed
+[2024.03.08-08.42.51:591][165]LogMaterialEditor: Saving and Compiling material M_Blockout
+[2024.03.08-08.42.51:594][165]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.08-08.42.51:675][165]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/M_Blockout" FILE="../../../../../Unreal/WISE23/SoSe2024/SoSe24/Content/Materials/M_Blockout.uasset" SILENT=true
+[2024.03.08-08.42.51:730][165]LogSavePackage: Moving output files for package: /Game/Materials/M_Blockout
+[2024.03.08-08.42.51:730][165]LogSavePackage: Moving '../../../../../Unreal/WISE23/SoSe2024/SoSe24/Saved/M_Blockout1ED7AFFC45B741C05B1F69A530A50C70.tmp' to '../../../../../Unreal/WISE23/SoSe2024/SoSe24/Content/Materials/M_Blockout.uasset'
+[2024.03.08-08.42.51:743][165]LogFileHelpers: InternalPromptForCheckoutAndSave took 149 ms (total: 622 ms)
+[2024.03.08-08.42.51:745][165]AssetCheck: New page: Asset Save: M_Blockout
+[2024.03.08-08.42.51:745][165]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Materials/M_Blockout.M_Blockout
+[2024.03.08-08.42.52:011][192]LogShaderCompilers: Display: ================================================
+[2024.03.08-08.42.52:011][192]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.03.08-08.42.52:011][192]LogShaderCompilers: Display: Total job queries 4, among them cache hits 0 (0.00%)
+[2024.03.08-08.42.52:011][192]LogShaderCompilers: Display: Tracking 1 distinct input hashes that result in 1 distinct outputs (100.00%)
+[2024.03.08-08.42.52:011][192]LogShaderCompilers: Display: RAM used: 18,11 KiB of 1,60 GiB budget. Usage: 0.00%
+[2024.03.08-08.42.52:011][192]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.03.08-08.42.52:011][192]LogShaderCompilers: Display: Shaders Compiled: 1
+[2024.03.08-08.42.52:011][192]LogShaderCompilers: Display: Jobs assigned 4, completed 1 (25.00%)
+[2024.03.08-08.42.52:011][192]LogShaderCompilers: Display: Time job spent in pending queue: average 0.22 s, longest 0.44 s
+[2024.03.08-08.42.52:011][192]LogShaderCompilers: Display: Job execution time: average 4.36 s, max 4.36 s
+[2024.03.08-08.42.52:011][192]LogShaderCompilers: Display: Job life time (pending + execution): average 4.80 s, max 4.80
+[2024.03.08-08.42.52:011][192]LogShaderCompilers: Display: Shader code size: average 29,613 KiB, min 29,613 KiB, max 29,613 KiB
+[2024.03.08-08.42.52:011][192]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 4.80 s
+[2024.03.08-08.42.52:011][192]LogShaderCompilers: Display: Jobs were issued in 4 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.03.08-08.42.52:011][192]LogShaderCompilers: Display: Average processing rate: 0.21 jobs/sec
+[2024.03.08-08.42.52:011][192]LogShaderCompilers: Display: Total thread time: 0,191 s
+[2024.03.08-08.42.52:011][192]LogShaderCompilers: Display: Total thread preprocess time: 0,039 s
+[2024.03.08-08.42.52:011][192]LogShaderCompilers: Display: Percentage time preprocessing: 20.65%
+[2024.03.08-08.42.52:011][192]LogShaderCompilers: Display: Effective parallelization: 0.04 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.03.08-08.42.52:011][192]LogShaderCompilers: Display: Top 1 most expensive shader types by average time:
+[2024.03.08-08.42.52:011][192]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled    1 times, average 0.19 sec, max 0.19 sec, min 0.19 sec)
+[2024.03.08-08.42.52:011][192]LogShaderCompilers: Display: Top 1 shader types by total compile time:
+[2024.03.08-08.42.52:011][192]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 100.00% of total time (compiled    1 times, average 0.19 sec, max 0.19 sec, min 0.19 sec)
+[2024.03.08-08.42.52:011][192]LogShaderCompilers: Display: ================================================
+[2024.03.08-08.42.52:248][201]MaterialEditorStats: Base pass shader: 187 instructions
+[2024.03.08-08.42.52:248][201]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.03.08-08.42.52:248][201]MaterialEditorStats: Texture samplers: 2/16
+[2024.03.08-08.42.52:248][201]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.03.08-08.42.52:248][201]MaterialEditorStats: Shader Count: 3
+[2024.03.08-08.42.55:994][615]MaterialEditorStats: Texture samplers: 0/16
+[2024.03.08-08.42.55:994][615]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.03.08-08.42.55:994][615]MaterialEditorStats: Shader Count: 0
+[2024.03.08-08.42.56:029][617]MaterialEditorStats: Base pass shader: 187 instructions
+[2024.03.08-08.42.56:029][617]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.03.08-08.42.56:029][617]MaterialEditorStats: Texture samplers: 2/16
+[2024.03.08-08.42.56:029][617]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.03.08-08.42.56:029][617]MaterialEditorStats: Shader Count: 4
+[2024.03.08-08.42.58:157][863]LogViewport: Scene viewport resized to 378x448, mode Windowed.
+[2024.03.08-08.42.58:198][865]LogViewport: Scene viewport resized to 381x448, mode Windowed.
+[2024.03.08-08.42.58:222][866]LogViewport: Scene viewport resized to 383x448, mode Windowed.
+[2024.03.08-08.42.58:244][867]LogViewport: Scene viewport resized to 389x448, mode Windowed.
+[2024.03.08-08.42.58:267][868]LogViewport: Scene viewport resized to 393x448, mode Windowed.
+[2024.03.08-08.42.58:290][869]LogViewport: Scene viewport resized to 400x448, mode Windowed.
+[2024.03.08-08.42.58:314][870]LogViewport: Scene viewport resized to 405x448, mode Windowed.
+[2024.03.08-08.42.58:335][871]LogViewport: Scene viewport resized to 410x448, mode Windowed.
+[2024.03.08-08.42.58:359][872]LogViewport: Scene viewport resized to 415x448, mode Windowed.
+[2024.03.08-08.42.58:382][873]LogViewport: Scene viewport resized to 421x448, mode Windowed.
+[2024.03.08-08.42.58:403][874]LogViewport: Scene viewport resized to 425x448, mode Windowed.
+[2024.03.08-08.42.58:426][875]LogViewport: Scene viewport resized to 427x448, mode Windowed.
+[2024.03.08-08.42.58:450][876]LogViewport: Scene viewport resized to 429x448, mode Windowed.
+[2024.03.08-08.42.58:474][877]LogViewport: Scene viewport resized to 434x448, mode Windowed.
+[2024.03.08-08.42.58:495][878]LogViewport: Scene viewport resized to 436x448, mode Windowed.
+[2024.03.08-08.42.58:519][879]LogViewport: Scene viewport resized to 440x448, mode Windowed.
+[2024.03.08-08.42.58:541][880]LogViewport: Scene viewport resized to 445x448, mode Windowed.
+[2024.03.08-08.42.58:564][881]LogViewport: Scene viewport resized to 448x448, mode Windowed.
+[2024.03.08-08.42.58:587][882]LogViewport: Scene viewport resized to 453x448, mode Windowed.
+[2024.03.08-08.42.58:611][883]LogViewport: Scene viewport resized to 454x448, mode Windowed.
+[2024.03.08-08.42.58:635][884]LogViewport: Scene viewport resized to 457x448, mode Windowed.
+[2024.03.08-08.43.25:127][ 40]MaterialEditorStats: Texture samplers: 0/16
+[2024.03.08-08.43.25:127][ 40]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.03.08-08.43.25:127][ 40]MaterialEditorStats: Shader Count: 0
+[2024.03.08-08.43.25:335][ 42]MaterialEditorStats: Base pass shader: 187 instructions
+[2024.03.08-08.43.25:335][ 42]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.03.08-08.43.25:335][ 42]MaterialEditorStats: Texture samplers: 2/16
+[2024.03.08-08.43.25:335][ 42]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.03.08-08.43.25:335][ 42]MaterialEditorStats: Shader Count: 4
+[2024.03.08-08.43.47:273][641]MaterialEditorStats: Texture samplers: 0/16
+[2024.03.08-08.43.47:273][641]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.03.08-08.43.47:273][641]MaterialEditorStats: Shader Count: 0
+[2024.03.08-08.43.47:298][642]MaterialEditorStats: Base pass shader: 187 instructions
+[2024.03.08-08.43.47:298][642]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.03.08-08.43.47:298][642]MaterialEditorStats: Texture samplers: 2/16
+[2024.03.08-08.43.47:298][642]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.03.08-08.43.47:298][642]MaterialEditorStats: Shader Count: 4
+[2024.03.08-08.43.52:493][248]LogMaterialEditor: Applying material M_Blockout
+[2024.03.08-08.43.52:604][248]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2024.03.08-08.43.53:177][248]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2024.03.08-08.43.53:195][248]MaterialEditorStats: Texture samplers: 0/16
+[2024.03.08-08.43.53:195][248]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.03.08-08.43.53:195][248]MaterialEditorStats: Shader Count: 2
+[2024.03.08-08.43.53:250][249]MaterialEditorStats: Base pass shader: 187 instructions
+[2024.03.08-08.43.53:250][249]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.03.08-08.43.53:250][249]MaterialEditorStats: Texture samplers: 2/16
+[2024.03.08-08.43.53:250][249]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.03.08-08.43.53:250][249]MaterialEditorStats: Shader Count: 4
+[2024.03.08-08.44.21:650][593]LogMaterialEditor: Saving and Compiling material M_Blockout
+[2024.03.08-08.44.21:702][593]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2024.03.08-08.44.21:871][593]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2024.03.08-08.44.21:883][593]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.08-08.44.23:083][593]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/M_Blockout" FILE="../../../../../Unreal/WISE23/SoSe2024/SoSe24/Content/Materials/M_Blockout.uasset" SILENT=true
+[2024.03.08-08.44.23:085][593]LogSavePackage: Moving output files for package: /Game/Materials/M_Blockout
+[2024.03.08-08.44.23:086][593]LogSavePackage: Moving '../../../../../Unreal/WISE23/SoSe2024/SoSe24/Saved/M_Blockout004ED02A4D639A77FEF42DB2AB502C2D.tmp' to '../../../../../Unreal/WISE23/SoSe2024/SoSe24/Content/Materials/M_Blockout.uasset'
+[2024.03.08-08.44.23:096][593]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.21 sec (total: 1.83 sec)
+[2024.03.08-08.44.23:097][593]AssetCheck: New page: Asset Save: M_Blockout
+[2024.03.08-08.44.23:097][593]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Materials/M_Blockout.M_Blockout
+[2024.03.08-08.44.23:099][593]MaterialEditorStats: Base pass shader: 187 instructions
+[2024.03.08-08.44.23:099][593]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.03.08-08.44.23:099][593]MaterialEditorStats: MaxSampler: 235 instructions
+[2024.03.08-08.44.23:099][593]MaterialEditorStats: Texture samplers: 3/16
+[2024.03.08-08.44.23:099][593]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.03.08-08.44.23:099][593]MaterialEditorStats: Shader Count: 16
+[2024.03.08-08.44.47:084][439]MaterialEditorStats: Texture samplers: 0/16
+[2024.03.08-08.44.47:085][439]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.03.08-08.44.47:085][439]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.08-08.44.47:085][439]MaterialEditorStats: Shader Count: 0
+[2024.03.08-08.44.47:594][492]MaterialEditorStats: Texture samplers: 1/16
+[2024.03.08-08.44.47:595][492]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.03.08-08.44.47:595][492]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.08-08.44.47:595][492]MaterialEditorStats: Shader Count: 1
+[2024.03.08-08.44.47:800][514]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.03.08-08.44.47:800][514]MaterialEditorStats: Texture samplers: 1/16
+[2024.03.08-08.44.47:800][514]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.03.08-08.44.47:800][514]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.08-08.44.47:800][514]MaterialEditorStats: Shader Count: 3
+[2024.03.08-08.44.47:900][526]MaterialEditorStats: Base pass shader: 194 instructions
+[2024.03.08-08.44.47:900][526]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.03.08-08.44.47:900][526]MaterialEditorStats: Texture samplers: 3/16
+[2024.03.08-08.44.47:900][526]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.03.08-08.44.47:900][526]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.08-08.44.47:900][526]MaterialEditorStats: Shader Count: 4
+[2024.03.08-08.44.49:147][666]LogMaterialEditor: Applying material M_Blockout
+[2024.03.08-08.44.49:199][666]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2024.03.08-08.44.49:724][666]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2024.03.08-08.44.49:736][666]MaterialEditorStats: Texture samplers: 1/16
+[2024.03.08-08.44.49:736][666]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.03.08-08.44.49:736][666]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.08-08.44.49:736][666]MaterialEditorStats: Shader Count: 2
+[2024.03.08-08.44.49:746][667]MaterialEditorStats: Base pass shader: 194 instructions
+[2024.03.08-08.44.49:747][667]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.03.08-08.44.49:747][667]MaterialEditorStats: Texture samplers: 3/16
+[2024.03.08-08.44.49:747][667]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.03.08-08.44.49:747][667]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.08-08.44.49:747][667]MaterialEditorStats: Shader Count: 4
+[2024.03.08-08.45.43:275][542]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Blockout/SM_Blockout_SM_Blockout_Corner.SM_Blockout_SM_Blockout_Corner
+[2024.03.08-08.45.43:285][542]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.08-08.45.43:286][542]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.08-08.45.45:541][542]LogViewport: Scene viewport resized to 1405x902, mode Windowed.
+[2024.03.08-08.45.56:170][670]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.08-08.45.56:238][670]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blockout/SM_Blockout_SM_Blockout_Corner" FILE="../../../../../Unreal/WISE23/SoSe2024/SoSe24/Content/Blockout/SM_Blockout_SM_Blockout_Corner.uasset" SILENT=true
+[2024.03.08-08.45.56:241][670]LogSavePackage: Moving output files for package: /Game/Blockout/SM_Blockout_SM_Blockout_Corner
+[2024.03.08-08.45.56:242][670]LogSavePackage: Moving '../../../../../Unreal/WISE23/SoSe2024/SoSe24/Saved/SM_Blockout_SM_Blockout_Corner4C503CA74060768B5B44609FA5D25A38.tmp' to '../../../../../Unreal/WISE23/SoSe2024/SoSe24/Content/Blockout/SM_Blockout_SM_Blockout_Corner.uasset'
+[2024.03.08-08.45.56:253][670]LogFileHelpers: InternalPromptForCheckoutAndSave took 83 ms (total: 1.91 sec)
+[2024.03.08-08.45.56:255][670]AssetCheck: New page: Asset Save: SM_Blockout_SM_Blockout_Corner
+[2024.03.08-08.45.56:255][670]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Blockout/SM_Blockout_SM_Blockout_Corner.SM_Blockout_SM_Blockout_Corner
+[2024.03.08-08.45.58:838][948]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Blockout/SM_Blockout_SM_Blockout_Cube.SM_Blockout_SM_Blockout_Cube
+[2024.03.08-08.45.58:846][948]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.08-08.45.58:846][948]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.08-08.45.59:596][948]LogViewport: Scene viewport resized to 1405x902, mode Windowed.
+[2024.03.08-08.46.02:690][274]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.08-08.46.02:763][274]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blockout/SM_Blockout_SM_Blockout_Cube" FILE="../../../../../Unreal/WISE23/SoSe2024/SoSe24/Content/Blockout/SM_Blockout_SM_Blockout_Cube.uasset" SILENT=true
+[2024.03.08-08.46.02:766][274]LogSavePackage: Moving output files for package: /Game/Blockout/SM_Blockout_SM_Blockout_Cube
+[2024.03.08-08.46.02:766][274]LogSavePackage: Moving '../../../../../Unreal/WISE23/SoSe2024/SoSe24/Saved/SM_Blockout_SM_Blockout_Cube2B55D1F5407E1EBA393C5596A3289E72.tmp' to '../../../../../Unreal/WISE23/SoSe2024/SoSe24/Content/Blockout/SM_Blockout_SM_Blockout_Cube.uasset'
+[2024.03.08-08.46.02:777][274]LogFileHelpers: InternalPromptForCheckoutAndSave took 87 ms (total: 2.00 sec)
+[2024.03.08-08.46.02:779][274]AssetCheck: New page: Asset Save: SM_Blockout_SM_Blockout_Cube
+[2024.03.08-08.46.02:779][274]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Blockout/SM_Blockout_SM_Blockout_Cube.SM_Blockout_SM_Blockout_Cube
+[2024.03.08-08.46.03:925][389]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Blockout/SM_Blockout_SM_Blockout_Cylinder.SM_Blockout_SM_Blockout_Cylinder
+[2024.03.08-08.46.03:934][389]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.08-08.46.03:934][389]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.08-08.46.04:678][389]LogViewport: Scene viewport resized to 1405x902, mode Windowed.
+[2024.03.08-08.46.07:342][671]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.08-08.46.07:406][671]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blockout/SM_Blockout_SM_Blockout_Cylinder" FILE="../../../../../Unreal/WISE23/SoSe2024/SoSe24/Content/Blockout/SM_Blockout_SM_Blockout_Cylinder.uasset" SILENT=true
+[2024.03.08-08.46.07:409][671]LogSavePackage: Moving output files for package: /Game/Blockout/SM_Blockout_SM_Blockout_Cylinder
+[2024.03.08-08.46.07:410][671]LogSavePackage: Moving '../../../../../Unreal/WISE23/SoSe2024/SoSe24/Saved/SM_Blockout_SM_Blockout_Cylinder2FDC924B4B421EEA3B7280AB250796EA.tmp' to '../../../../../Unreal/WISE23/SoSe2024/SoSe24/Content/Blockout/SM_Blockout_SM_Blockout_Cylinder.uasset'
+[2024.03.08-08.46.07:420][671]LogFileHelpers: InternalPromptForCheckoutAndSave took 77 ms (total: 2.08 sec)
+[2024.03.08-08.46.07:421][671]AssetCheck: New page: Asset Save: SM_Blockout_SM_Blockout_Cylinder
+[2024.03.08-08.46.07:421][671]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Blockout/SM_Blockout_SM_Blockout_Cylinder.SM_Blockout_SM_Blockout_Cylinder
+[2024.03.08-08.46.08:621][791]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Blockout/SM_Blockout_SM_Blockout_Slope.SM_Blockout_SM_Blockout_Slope
+[2024.03.08-08.46.08:630][791]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.08-08.46.08:630][791]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.08-08.46.09:398][791]LogViewport: Scene viewport resized to 1405x902, mode Windowed.
+[2024.03.08-08.46.12:491][113]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.08-08.46.12:560][113]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blockout/SM_Blockout_SM_Blockout_Slope" FILE="../../../../../Unreal/WISE23/SoSe2024/SoSe24/Content/Blockout/SM_Blockout_SM_Blockout_Slope.uasset" SILENT=true
+[2024.03.08-08.46.12:563][113]LogSavePackage: Moving output files for package: /Game/Blockout/SM_Blockout_SM_Blockout_Slope
+[2024.03.08-08.46.12:564][113]LogSavePackage: Moving '../../../../../Unreal/WISE23/SoSe2024/SoSe24/Saved/SM_Blockout_SM_Blockout_Slope9A01A23749A7DDB0AB0135BF846FE0DD.tmp' to '../../../../../Unreal/WISE23/SoSe2024/SoSe24/Content/Blockout/SM_Blockout_SM_Blockout_Slope.uasset'
+[2024.03.08-08.46.12:574][113]LogFileHelpers: InternalPromptForCheckoutAndSave took 82 ms (total: 2.16 sec)
+[2024.03.08-08.46.12:576][113]AssetCheck: New page: Asset Save: SM_Blockout_SM_Blockout_Slope
+[2024.03.08-08.46.12:576][113]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Blockout/SM_Blockout_SM_Blockout_Slope.SM_Blockout_SM_Blockout_Slope
+[2024.03.08-08.46.14:063][277]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2024.03.08-08.46.14:063][277]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.08-08.46.14:641][325]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2024.03.08-08.46.14:642][325]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.08-08.46.15:183][375]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2024.03.08-08.46.15:183][375]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.08-08.46.15:677][422]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2024.03.08-08.46.15:677][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.08-08.46.30:210][107]MaterialEditorStats: Texture samplers: 0/16
+[2024.03.08-08.46.30:210][107]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.03.08-08.46.30:210][107]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.08-08.46.30:210][107]MaterialEditorStats: Shader Count: 0
+[2024.03.08-08.46.30:211][107]LogShaderCompilers: Display: ================================================
+[2024.03.08-08.46.30:211][107]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.03.08-08.46.30:211][107]LogShaderCompilers: Display: Total job queries 85, among them cache hits 61 (71.76%)
+[2024.03.08-08.46.30:211][107]LogShaderCompilers: Display: Tracking 24 distinct input hashes that result in 20 distinct outputs (83.33%)
+[2024.03.08-08.46.30:211][107]LogShaderCompilers: Display: RAM used: 565,34 KiB of 1,60 GiB budget. Usage: 0.03%
+[2024.03.08-08.46.30:211][107]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.03.08-08.46.30:211][107]LogShaderCompilers: Display: Shaders Compiled: 24
+[2024.03.08-08.46.30:211][107]LogShaderCompilers: Display: Jobs assigned 24, completed 24 (100%)
+[2024.03.08-08.46.30:211][107]LogShaderCompilers: Display: Average time worker was idle: 28.62 s
+[2024.03.08-08.46.30:211][107]LogShaderCompilers: Display: Time job spent in pending queue: average 0.16 s, longest 0.77 s
+[2024.03.08-08.46.30:211][107]LogShaderCompilers: Display: Job execution time: average 1.26 s, max 5.00 s
+[2024.03.08-08.46.30:211][107]LogShaderCompilers: Display: Job life time (pending + execution): average 1.42 s, max 5.00
+[2024.03.08-08.46.30:211][107]LogShaderCompilers: Display: Shader code size: average 39,782 KiB, min 29,613 KiB, max 60,668 KiB
+[2024.03.08-08.46.30:211][107]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 8.36 s
+[2024.03.08-08.46.30:211][107]LogShaderCompilers: Display: Jobs were issued in 24 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.03.08-08.46.30:211][107]LogShaderCompilers: Display: Average processing rate: 2.87 jobs/sec
+[2024.03.08-08.46.30:211][107]LogShaderCompilers: Display: Total thread time: 8,004 s
+[2024.03.08-08.46.30:211][107]LogShaderCompilers: Display: Total thread preprocess time: 0,994 s
+[2024.03.08-08.46.30:211][107]LogShaderCompilers: Display: Percentage time preprocessing: 12.42%
+[2024.03.08-08.46.30:211][107]LogShaderCompilers: Display: Effective parallelization: 0.96 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.03.08-08.46.30:211][107]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.03.08-08.46.30:212][107]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled    1 times, average 0.45 sec, max 0.45 sec, min 0.45 sec)
+[2024.03.08-08.46.30:212][107]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy (compiled    1 times, average 0.44 sec, max 0.44 sec, min 0.44 sec)
+[2024.03.08-08.46.30:212][107]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    1 times, average 0.43 sec, max 0.43 sec, min 0.43 sec)
+[2024.03.08-08.46.30:212][107]LogShaderCompilers: Display:               TBasePassPSFCachedVolumeIndirectLightingPolicy (compiled    1 times, average 0.43 sec, max 0.43 sec, min 0.43 sec)
+[2024.03.08-08.46.30:212][107]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    1 times, average 0.42 sec, max 0.42 sec, min 0.42 sec)
+[2024.03.08-08.46.30:212][107]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.03.08-08.46.30:212][107]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 14.10% of total time (compiled    3 times, average 0.38 sec, max 0.43 sec, min 0.32 sec)
+[2024.03.08-08.46.30:212][107]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 13.80% of total time (compiled    3 times, average 0.37 sec, max 0.38 sec, min 0.35 sec)
+[2024.03.08-08.46.30:212][107]LogShaderCompilers: Display:                                                 FLumenCardVS - 8.90% of total time (compiled    2 times, average 0.36 sec, max 0.36 sec, min 0.35 sec)
+[2024.03.08-08.46.30:212][107]LogShaderCompilers: Display:                                             FDebugViewModeVS - 6.05% of total time (compiled    2 times, average 0.24 sec, max 0.26 sec, min 0.22 sec)
+[2024.03.08-08.46.30:212][107]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight - 5.64% of total time (compiled    1 times, average 0.45 sec, max 0.45 sec, min 0.45 sec)
+[2024.03.08-08.46.30:212][107]LogShaderCompilers: Display: ================================================
+[2024.03.08-08.46.30:256][108]MaterialEditorStats: Base pass shader: 194 instructions
+[2024.03.08-08.46.30:256][108]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.03.08-08.46.30:256][108]MaterialEditorStats: Texture samplers: 3/16
+[2024.03.08-08.46.30:256][108]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.03.08-08.46.30:256][108]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.08-08.46.30:256][108]MaterialEditorStats: Shader Count: 4
+[2024.03.08-08.46.30:323][111]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.08-08.46.35:398][677]MaterialEditorStats: Base pass shader: 187 instructions
+[2024.03.08-08.46.35:398][677]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.03.08-08.46.35:398][677]MaterialEditorStats: Texture samplers: 2/16
+[2024.03.08-08.46.35:398][677]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.03.08-08.46.35:398][677]MaterialEditorStats: Shader Count: 4
+[2024.03.08-08.46.41:581][386]MaterialEditorStats: Texture samplers: 0/16
+[2024.03.08-08.46.41:581][386]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.03.08-08.46.41:581][386]MaterialEditorStats: Shader Count: 0
+[2024.03.08-08.46.41:616][387]MaterialEditorStats: Base pass shader: 187 instructions
+[2024.03.08-08.46.41:616][387]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.03.08-08.46.41:616][387]MaterialEditorStats: Texture samplers: 2/16
+[2024.03.08-08.46.41:616][387]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.03.08-08.46.41:616][387]MaterialEditorStats: Shader Count: 4
+[2024.03.08-08.46.45:258][799]MaterialEditorStats: Texture samplers: 0/16
+[2024.03.08-08.46.45:258][799]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.03.08-08.46.45:258][799]MaterialEditorStats: Shader Count: 0
+[2024.03.08-08.46.45:304][801]MaterialEditorStats: Base pass shader: 187 instructions
+[2024.03.08-08.46.45:304][801]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.03.08-08.46.45:304][801]MaterialEditorStats: Texture samplers: 2/16
+[2024.03.08-08.46.45:304][801]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.03.08-08.46.45:304][801]MaterialEditorStats: Shader Count: 4
+[2024.03.08-08.46.47:953][101]LogMaterial: Warning: [AssetLog] /Engine/Transient.M_Blockout: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	Function WorldAlignedTexture: Cannot cast from texture2D to float3.
+
+[2024.03.08-08.46.47:957][101]MaterialEditorStats: Error: [SM6] Function WorldAlignedTexture: Cannot cast from texture2D to float3.
+[2024.03.08-08.46.50:663][416]MaterialEditorStats: Base pass shader: 187 instructions
+[2024.03.08-08.46.50:664][416]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.03.08-08.46.50:664][416]MaterialEditorStats: Texture samplers: 2/16
+[2024.03.08-08.46.50:664][416]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.03.08-08.46.50:664][416]MaterialEditorStats: Shader Count: 4
+[2024.03.08-08.47.19:276][806]LogMaterial: Warning: [AssetLog] /Engine/Transient.M_Blockout: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	Function WorldAlignedTexture: Cannot cast from texture2D to float3.
+
+[2024.03.08-08.47.19:280][806]MaterialEditorStats: Error: [SM6] Function WorldAlignedTexture: Cannot cast from texture2D to float3.
+[2024.03.08-08.47.32:306][353]LogMaterialEditor: Applying material M_Blockout
+[2024.03.08-08.47.42:432][353]LogSlate: Window 'Warning: Compilation errors in this Material' being destroyed
+[2024.03.08-08.48.12:358][905]LogMaterial: Warning: [AssetLog] /Engine/Transient.M_Blockout: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	Function WorldAlignedTexture: Cannot cast from texture2D to float3.
+
+[2024.03.08-08.48.19:269][706]MaterialEditorStats: Texture samplers: 0/16
+[2024.03.08-08.48.19:269][706]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(6)
+[2024.03.08-08.48.19:269][706]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.03.08-08.48.19:269][706]MaterialEditorStats: LWC Divide usages (Est.): 4
+[2024.03.08-08.48.19:269][706]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 4
+[2024.03.08-08.48.19:269][706]MaterialEditorStats: LWC Other usages (Est.): 4
+[2024.03.08-08.48.19:269][706]MaterialEditorStats: Shader Count: 0
+[2024.03.08-08.48.19:730][748]MaterialEditorStats: Texture samplers: 1/16
+[2024.03.08-08.48.19:730][748]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(6)
+[2024.03.08-08.48.19:730][748]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.03.08-08.48.19:730][748]MaterialEditorStats: LWC Divide usages (Est.): 4
+[2024.03.08-08.48.19:730][748]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 4
+[2024.03.08-08.48.19:730][748]MaterialEditorStats: LWC Other usages (Est.): 4
+[2024.03.08-08.48.19:730][748]MaterialEditorStats: Shader Count: 1
+[2024.03.08-08.48.19:925][770]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.03.08-08.48.19:925][770]MaterialEditorStats: Texture samplers: 1/16
+[2024.03.08-08.48.19:925][770]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(6)
+[2024.03.08-08.48.19:925][770]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.03.08-08.48.19:925][770]MaterialEditorStats: LWC Divide usages (Est.): 4
+[2024.03.08-08.48.19:925][770]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 4
+[2024.03.08-08.48.19:925][770]MaterialEditorStats: LWC Other usages (Est.): 4
+[2024.03.08-08.48.19:925][770]MaterialEditorStats: Shader Count: 2
+[2024.03.08-08.48.20:029][782]MaterialEditorStats: Base pass shader: 213 instructions
+[2024.03.08-08.48.20:029][782]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.03.08-08.48.20:029][782]MaterialEditorStats: Texture samplers: 3/16
+[2024.03.08-08.48.20:029][782]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(6)
+[2024.03.08-08.48.20:029][782]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.03.08-08.48.20:029][782]MaterialEditorStats: LWC Divide usages (Est.): 4
+[2024.03.08-08.48.20:029][782]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 4
+[2024.03.08-08.48.20:029][782]MaterialEditorStats: LWC Other usages (Est.): 4
+[2024.03.08-08.48.20:029][782]MaterialEditorStats: Shader Count: 4
+[2024.03.08-08.48.22:806][ 90]MaterialEditorStats: Texture samplers: 0/16
+[2024.03.08-08.48.22:806][ 90]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(6)
+[2024.03.08-08.48.22:806][ 90]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.03.08-08.48.22:806][ 90]MaterialEditorStats: LWC Divide usages (Est.): 4
+[2024.03.08-08.48.22:806][ 90]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 4
+[2024.03.08-08.48.22:806][ 90]MaterialEditorStats: LWC Other usages (Est.): 4
+[2024.03.08-08.48.22:806][ 90]MaterialEditorStats: Shader Count: 0
+[2024.03.08-08.48.22:858][ 92]MaterialEditorStats: Base pass shader: 213 instructions
+[2024.03.08-08.48.22:858][ 92]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.03.08-08.48.22:858][ 92]MaterialEditorStats: Texture samplers: 3/16
+[2024.03.08-08.48.22:858][ 92]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(6)
+[2024.03.08-08.48.22:858][ 92]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.03.08-08.48.22:858][ 92]MaterialEditorStats: LWC Divide usages (Est.): 4
+[2024.03.08-08.48.22:858][ 92]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 4
+[2024.03.08-08.48.22:858][ 92]MaterialEditorStats: LWC Other usages (Est.): 4
+[2024.03.08-08.48.22:858][ 92]MaterialEditorStats: Shader Count: 4
+[2024.03.08-08.48.43:801][554]MaterialEditorStats: Texture samplers: 0/16
+[2024.03.08-08.48.43:801][554]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(6)
+[2024.03.08-08.48.43:801][554]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.03.08-08.48.43:801][554]MaterialEditorStats: LWC Divide usages (Est.): 4
+[2024.03.08-08.48.43:801][554]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 4
+[2024.03.08-08.48.43:801][554]MaterialEditorStats: LWC Other usages (Est.): 4
+[2024.03.08-08.48.43:801][554]MaterialEditorStats: Shader Count: 0
+[2024.03.08-08.48.43:848][556]MaterialEditorStats: Base pass shader: 213 instructions
+[2024.03.08-08.48.43:848][556]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.03.08-08.48.43:848][556]MaterialEditorStats: Texture samplers: 3/16
+[2024.03.08-08.48.43:848][556]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(6)
+[2024.03.08-08.48.43:848][556]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.03.08-08.48.43:848][556]MaterialEditorStats: LWC Divide usages (Est.): 4
+[2024.03.08-08.48.43:848][556]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 4
+[2024.03.08-08.48.43:848][556]MaterialEditorStats: LWC Other usages (Est.): 4
+[2024.03.08-08.48.43:848][556]MaterialEditorStats: Shader Count: 4
+[2024.03.08-08.48.50:866][384]MaterialEditorStats: Texture samplers: 0/16
+[2024.03.08-08.48.50:866][384]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(6)
+[2024.03.08-08.48.50:866][384]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.03.08-08.48.50:866][384]MaterialEditorStats: LWC Divide usages (Est.): 4
+[2024.03.08-08.48.50:866][384]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 4
+[2024.03.08-08.48.50:866][384]MaterialEditorStats: LWC Other usages (Est.): 4
+[2024.03.08-08.48.50:866][384]MaterialEditorStats: Shader Count: 0
+[2024.03.08-08.48.51:323][432]MaterialEditorStats: Texture samplers: 1/16
+[2024.03.08-08.48.51:323][432]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(6)
+[2024.03.08-08.48.51:323][432]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.03.08-08.48.51:323][432]MaterialEditorStats: LWC Divide usages (Est.): 4
+[2024.03.08-08.48.51:323][432]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 4
+[2024.03.08-08.48.51:323][432]MaterialEditorStats: LWC Other usages (Est.): 4
+[2024.03.08-08.48.51:323][432]MaterialEditorStats: Shader Count: 1
+[2024.03.08-08.48.51:627][466]MaterialEditorStats: Base pass shader: 213 instructions
+[2024.03.08-08.48.51:627][466]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.03.08-08.48.51:627][466]MaterialEditorStats: Texture samplers: 3/16
+[2024.03.08-08.48.51:627][466]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(6)
+[2024.03.08-08.48.51:628][466]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.03.08-08.48.51:628][466]MaterialEditorStats: LWC Divide usages (Est.): 4
+[2024.03.08-08.48.51:628][466]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 4
+[2024.03.08-08.48.51:628][466]MaterialEditorStats: LWC Other usages (Est.): 4
+[2024.03.08-08.48.51:628][466]MaterialEditorStats: Shader Count: 4
+[2024.03.08-08.48.53:331][656]MaterialEditorStats: Texture samplers: 0/16
+[2024.03.08-08.48.53:331][656]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(6)
+[2024.03.08-08.48.53:331][656]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.03.08-08.48.53:331][656]MaterialEditorStats: LWC Divide usages (Est.): 4
+[2024.03.08-08.48.53:331][656]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 4
+[2024.03.08-08.48.53:331][656]MaterialEditorStats: LWC Other usages (Est.): 4
+[2024.03.08-08.48.53:331][656]MaterialEditorStats: Shader Count: 0
+[2024.03.08-08.48.53:600][681]MaterialEditorStats: Texture samplers: 1/16
+[2024.03.08-08.48.53:600][681]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(6)
+[2024.03.08-08.48.53:600][681]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.03.08-08.48.53:600][681]MaterialEditorStats: LWC Divide usages (Est.): 4
+[2024.03.08-08.48.53:600][681]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 4
+[2024.03.08-08.48.53:601][681]MaterialEditorStats: LWC Other usages (Est.): 4
+[2024.03.08-08.48.53:601][681]MaterialEditorStats: Shader Count: 1
+[2024.03.08-08.48.53:801][703]MaterialEditorStats: Base pass shader: 213 instructions
+[2024.03.08-08.48.53:801][703]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.03.08-08.48.53:801][703]MaterialEditorStats: Texture samplers: 3/16
+[2024.03.08-08.48.53:801][703]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(6)
+[2024.03.08-08.48.53:801][703]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.03.08-08.48.53:801][703]MaterialEditorStats: LWC Divide usages (Est.): 4
+[2024.03.08-08.48.53:801][703]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 4
+[2024.03.08-08.48.53:801][703]MaterialEditorStats: LWC Other usages (Est.): 4
+[2024.03.08-08.48.53:801][703]MaterialEditorStats: Shader Count: 4
+[2024.03.08-08.48.59:195][323]LogMaterialEditor: Applying material M_Blockout
+[2024.03.08-08.48.59:290][323]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2024.03.08-08.48.59:802][323]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2024.03.08-08.49.00:416][390]LogMaterialEditor: Saving and Compiling material M_Blockout
+[2024.03.08-08.49.00:419][390]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.08-08.49.01:418][390]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/M_Blockout" FILE="../../../../../Unreal/WISE23/SoSe2024/SoSe24/Content/Materials/M_Blockout.uasset" SILENT=true
+[2024.03.08-08.49.01:421][390]LogSavePackage: Moving output files for package: /Game/Materials/M_Blockout
+[2024.03.08-08.49.01:421][390]LogSavePackage: Moving '../../../../../Unreal/WISE23/SoSe2024/SoSe24/Saved/M_Blockout17992AE24913C5A54334B981D14BE0B4.tmp' to '../../../../../Unreal/WISE23/SoSe2024/SoSe24/Content/Materials/M_Blockout.uasset'
+[2024.03.08-08.49.01:431][390]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.01 sec (total: 3.17 sec)
+[2024.03.08-08.49.01:433][390]AssetCheck: New page: Asset Save: M_Blockout
+[2024.03.08-08.49.01:433][390]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Materials/M_Blockout.M_Blockout
+[2024.03.08-08.49.01:433][390]MaterialEditorStats: Base pass shader: 213 instructions
+[2024.03.08-08.49.01:433][390]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.03.08-08.49.01:433][390]MaterialEditorStats: MaxSampler: 263 instructions
+[2024.03.08-08.49.01:433][390]MaterialEditorStats: Texture samplers: 4/16
+[2024.03.08-08.49.01:433][390]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(6)
+[2024.03.08-08.49.01:433][390]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.03.08-08.49.01:434][390]MaterialEditorStats: LWC Divide usages (Est.): 4
+[2024.03.08-08.49.01:434][390]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 4
+[2024.03.08-08.49.01:434][390]MaterialEditorStats: LWC Other usages (Est.): 4
+[2024.03.08-08.49.01:434][390]MaterialEditorStats: Shader Count: 16
+[2024.03.08-08.49.16:490][162]LogMaterialEditor: Saving and Compiling material M_Blockout
+[2024.03.08-08.49.16:549][162]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2024.03.08-08.49.16:726][162]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2024.03.08-08.49.16:740][162]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.08-08.49.16:827][162]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/M_Blockout" FILE="../../../../../Unreal/WISE23/SoSe2024/SoSe24/Content/Materials/M_Blockout.uasset" SILENT=true
+[2024.03.08-08.49.16:830][162]LogSavePackage: Moving output files for package: /Game/Materials/M_Blockout
+[2024.03.08-08.49.16:831][162]LogSavePackage: Moving '../../../../../Unreal/WISE23/SoSe2024/SoSe24/Saved/M_Blockout2EA0C5E24C40C8198D7B9790476080EF.tmp' to '../../../../../Unreal/WISE23/SoSe2024/SoSe24/Content/Materials/M_Blockout.uasset'
+[2024.03.08-08.49.16:840][162]LogFileHelpers: InternalPromptForCheckoutAndSave took 100 ms (total: 3.27 sec)
+[2024.03.08-08.49.16:841][162]AssetCheck: New page: Asset Save: M_Blockout
+[2024.03.08-08.49.16:841][162]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Materials/M_Blockout.M_Blockout
+[2024.03.08-08.50.15:243][559]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.08-08.50.15:284][559]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/L_Unterricht" FILE="../../../../../Unreal/WISE23/SoSe2024/SoSe24/Content/Maps/L_Unterricht.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.03.08-08.50.15:311][559]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2024.03.08-08.50.15:323][559]LogSavePackage: Moving output files for package: /Game/Maps/L_Unterricht
+[2024.03.08-08.50.15:323][559]LogSavePackage: Moving '../../../../../Unreal/WISE23/SoSe2024/SoSe24/Saved/L_Unterricht3C951942431ED29A99B52480D0BD8669.tmp' to '../../../../../Unreal/WISE23/SoSe2024/SoSe24/Content/Maps/L_Unterricht.umap'
+[2024.03.08-08.50.15:330][559]LogFileHelpers: Saving map 'L_Unterricht' took 0.047
+[2024.03.08-08.50.15:339][559]LogFileHelpers: InternalPromptForCheckoutAndSave took 96 ms (total: 3.37 sec)
+[2024.03.08-08.50.15:341][559]AssetCheck: New page: Asset Save: L_Unterricht
+[2024.03.08-08.50.15:341][559]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/L_Unterricht.L_Unterricht
+[2024.03.08-08.52.55:112][609]LogShaderCompilers: Display: ================================================
+[2024.03.08-08.52.55:112][609]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.03.08-08.52.55:112][609]LogShaderCompilers: Display: Total job queries 199, among them cache hits 145 (72.86%)
+[2024.03.08-08.52.55:112][609]LogShaderCompilers: Display: Tracking 54 distinct input hashes that result in 37 distinct outputs (68.52%)
+[2024.03.08-08.52.55:112][609]LogShaderCompilers: Display: RAM used: 1,23 MiB of 1,60 GiB budget. Usage: 0.07%
+[2024.03.08-08.52.55:112][609]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.03.08-08.52.55:113][609]LogShaderCompilers: Display: Shaders Compiled: 54
+[2024.03.08-08.52.55:113][609]LogShaderCompilers: Display: Jobs assigned 54, completed 54 (100%)
+[2024.03.08-08.52.55:113][609]LogShaderCompilers: Display: Average time worker was idle: 55.76 s
+[2024.03.08-08.52.55:113][609]LogShaderCompilers: Display: Time job spent in pending queue: average 0.12 s, longest 0.77 s
+[2024.03.08-08.52.55:113][609]LogShaderCompilers: Display: Job execution time: average 0.87 s, max 5.00 s
+[2024.03.08-08.52.55:113][609]LogShaderCompilers: Display: Job life time (pending + execution): average 0.99 s, max 5.00
+[2024.03.08-08.52.55:113][609]LogShaderCompilers: Display: Shader code size: average 39,271 KiB, min 29,613 KiB, max 61,555 KiB
+[2024.03.08-08.52.55:113][609]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 13.08 s
+[2024.03.08-08.52.55:113][609]LogShaderCompilers: Display: Jobs were issued in 54 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.03.08-08.52.55:113][609]LogShaderCompilers: Display: Average processing rate: 4.13 jobs/sec
+[2024.03.08-08.52.55:113][609]LogShaderCompilers: Display: Total thread time: 19,048 s
+[2024.03.08-08.52.55:113][609]LogShaderCompilers: Display: Total thread preprocess time: 2,265 s
+[2024.03.08-08.52.55:113][609]LogShaderCompilers: Display: Percentage time preprocessing: 11.89%
+[2024.03.08-08.52.55:113][609]LogShaderCompilers: Display: Effective parallelization: 1.46 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.03.08-08.52.55:113][609]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.03.08-08.52.55:113][609]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled    2 times, average 0.47 sec, max 0.49 sec, min 0.45 sec)
+[2024.03.08-08.52.55:113][609]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    2 times, average 0.47 sec, max 0.51 sec, min 0.43 sec)
+[2024.03.08-08.52.55:113][609]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy (compiled    2 times, average 0.47 sec, max 0.49 sec, min 0.44 sec)
+[2024.03.08-08.52.55:113][609]LogShaderCompilers: Display:               TBasePassPSFCachedVolumeIndirectLightingPolicy (compiled    2 times, average 0.45 sec, max 0.47 sec, min 0.43 sec)
+[2024.03.08-08.52.55:113][609]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    2 times, average 0.45 sec, max 0.49 sec, min 0.42 sec)
+[2024.03.08-08.52.55:113][609]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.03.08-08.52.55:113][609]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 16.44% of total time (compiled    8 times, average 0.39 sec, max 0.46 sec, min 0.27 sec)
+[2024.03.08-08.52.55:113][609]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 15.83% of total time (compiled    8 times, average 0.38 sec, max 0.45 sec, min 0.33 sec)
+[2024.03.08-08.52.55:113][609]LogShaderCompilers: Display:                                                 FLumenCardVS - 11.76% of total time (compiled    6 times, average 0.37 sec, max 0.40 sec, min 0.35 sec)
+[2024.03.08-08.52.55:113][609]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 6.11% of total time (compiled    6 times, average 0.19 sec, max 0.22 sec, min 0.18 sec)
+[2024.03.08-08.52.55:113][609]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight - 4.95% of total time (compiled    2 times, average 0.47 sec, max 0.49 sec, min 0.45 sec)
+[2024.03.08-08.52.55:113][609]LogShaderCompilers: Display: ================================================
+[2024.03.08-08.52.55:167][612]MaterialEditorStats: Base pass shader: 213 instructions
+[2024.03.08-08.52.55:167][612]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.03.08-08.52.55:167][612]MaterialEditorStats: Texture samplers: 3/16
+[2024.03.08-08.52.55:167][612]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(6)
+[2024.03.08-08.52.55:167][612]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.03.08-08.52.55:167][612]MaterialEditorStats: LWC Divide usages (Est.): 4
+[2024.03.08-08.52.55:167][612]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 4
+[2024.03.08-08.52.55:167][612]MaterialEditorStats: LWC Other usages (Est.): 4
+[2024.03.08-08.52.55:167][612]MaterialEditorStats: Shader Count: 4
+[2024.03.08-08.53.21:134][704]MaterialEditorStats: Texture samplers: 0/16
+[2024.03.08-08.53.21:134][704]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(6)
+[2024.03.08-08.53.21:134][704]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.03.08-08.53.21:135][704]MaterialEditorStats: LWC Divide usages (Est.): 4
+[2024.03.08-08.53.21:135][704]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 4
+[2024.03.08-08.53.21:135][704]MaterialEditorStats: LWC Other usages (Est.): 4
+[2024.03.08-08.53.21:135][704]MaterialEditorStats: Shader Count: 0
+[2024.03.08-08.53.21:170][706]MaterialEditorStats: Base pass shader: 213 instructions
+[2024.03.08-08.53.21:170][706]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.03.08-08.53.21:170][706]MaterialEditorStats: Texture samplers: 3/16
+[2024.03.08-08.53.21:170][706]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(6)
+[2024.03.08-08.53.21:170][706]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.03.08-08.53.21:170][706]MaterialEditorStats: LWC Divide usages (Est.): 4
+[2024.03.08-08.53.21:170][706]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 4
+[2024.03.08-08.53.21:170][706]MaterialEditorStats: LWC Other usages (Est.): 4
+[2024.03.08-08.53.21:170][706]MaterialEditorStats: Shader Count: 4
+[2024.03.08-08.53.31:739][941]MaterialEditorStats: Base pass shader: 187 instructions
+[2024.03.08-08.53.31:739][941]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.03.08-08.53.31:739][941]MaterialEditorStats: Texture samplers: 2/16
+[2024.03.08-08.53.31:739][941]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.03.08-08.53.31:739][941]MaterialEditorStats: Shader Count: 4
+[2024.03.08-08.53.38:255][702]MaterialEditorStats: Texture samplers: 0/16
+[2024.03.08-08.53.38:255][702]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(6)
+[2024.03.08-08.53.38:255][702]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.03.08-08.53.38:255][702]MaterialEditorStats: LWC Divide usages (Est.): 4
+[2024.03.08-08.53.38:255][702]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 4
+[2024.03.08-08.53.38:255][702]MaterialEditorStats: LWC Other usages (Est.): 4
+[2024.03.08-08.53.38:255][702]MaterialEditorStats: Shader Count: 0
+[2024.03.08-08.53.38:842][751]MaterialEditorStats: Texture samplers: 1/16
+[2024.03.08-08.53.38:842][751]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(6)
+[2024.03.08-08.53.38:842][751]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.03.08-08.53.38:842][751]MaterialEditorStats: LWC Divide usages (Est.): 4
+[2024.03.08-08.53.38:842][751]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 4
+[2024.03.08-08.53.38:842][751]MaterialEditorStats: LWC Other usages (Est.): 4
+[2024.03.08-08.53.38:842][751]MaterialEditorStats: Shader Count: 1
+[2024.03.08-08.53.39:073][770]MaterialEditorStats: Base pass shader: 205 instructions
+[2024.03.08-08.53.39:073][770]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.03.08-08.53.39:074][770]MaterialEditorStats: Texture samplers: 3/16
+[2024.03.08-08.53.39:074][770]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(6)
+[2024.03.08-08.53.39:074][770]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.03.08-08.53.39:074][770]MaterialEditorStats: LWC Divide usages (Est.): 4
+[2024.03.08-08.53.39:074][770]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 4
+[2024.03.08-08.53.39:074][770]MaterialEditorStats: LWC Other usages (Est.): 4
+[2024.03.08-08.53.39:074][770]MaterialEditorStats: Shader Count: 4
+[2024.03.08-08.54.01:628][422]MaterialEditorStats: Texture samplers: 0/16
+[2024.03.08-08.54.01:628][422]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(6)
+[2024.03.08-08.54.01:628][422]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.03.08-08.54.01:628][422]MaterialEditorStats: LWC Divide usages (Est.): 4
+[2024.03.08-08.54.01:628][422]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 4
+[2024.03.08-08.54.01:628][422]MaterialEditorStats: LWC Other usages (Est.): 4
+[2024.03.08-08.54.01:628][422]MaterialEditorStats: Shader Count: 0
+[2024.03.08-08.54.01:681][424]MaterialEditorStats: Base pass shader: 205 instructions
+[2024.03.08-08.54.01:681][424]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.03.08-08.54.01:681][424]MaterialEditorStats: Texture samplers: 3/16
+[2024.03.08-08.54.01:681][424]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(6)
+[2024.03.08-08.54.01:681][424]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.03.08-08.54.01:681][424]MaterialEditorStats: LWC Divide usages (Est.): 4
+[2024.03.08-08.54.01:681][424]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 4
+[2024.03.08-08.54.01:681][424]MaterialEditorStats: LWC Other usages (Est.): 4
+[2024.03.08-08.54.01:681][424]MaterialEditorStats: Shader Count: 4
+[2024.03.08-08.54.05:799][897]MaterialEditorStats: Texture samplers: 0/16
+[2024.03.08-08.54.05:799][897]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(6)
+[2024.03.08-08.54.05:799][897]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.03.08-08.54.05:799][897]MaterialEditorStats: LWC Divide usages (Est.): 4
+[2024.03.08-08.54.05:799][897]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 4
+[2024.03.08-08.54.05:799][897]MaterialEditorStats: LWC Other usages (Est.): 4
+[2024.03.08-08.54.05:799][897]MaterialEditorStats: Shader Count: 0
+[2024.03.08-08.54.05:846][899]MaterialEditorStats: Base pass shader: 205 instructions
+[2024.03.08-08.54.05:846][899]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.03.08-08.54.05:846][899]MaterialEditorStats: Texture samplers: 3/16
+[2024.03.08-08.54.05:846][899]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(6)
+[2024.03.08-08.54.05:846][899]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.03.08-08.54.05:846][899]MaterialEditorStats: LWC Divide usages (Est.): 4
+[2024.03.08-08.54.05:846][899]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 4
+[2024.03.08-08.54.05:846][899]MaterialEditorStats: LWC Other usages (Est.): 4
+[2024.03.08-08.54.05:846][899]MaterialEditorStats: Shader Count: 4
+[2024.03.08-08.54.25:127][125]MaterialEditorStats: Texture samplers: 0/16
+[2024.03.08-08.54.25:127][125]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(6)
+[2024.03.08-08.54.25:127][125]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.03.08-08.54.25:127][125]MaterialEditorStats: LWC Divide usages (Est.): 4
+[2024.03.08-08.54.25:127][125]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 4
+[2024.03.08-08.54.25:127][125]MaterialEditorStats: LWC Other usages (Est.): 4
+[2024.03.08-08.54.25:127][125]MaterialEditorStats: Shader Count: 0
+[2024.03.08-08.54.25:683][170]MaterialEditorStats: Texture samplers: 1/16
+[2024.03.08-08.54.25:683][170]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(6)
+[2024.03.08-08.54.25:683][170]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.03.08-08.54.25:683][170]MaterialEditorStats: LWC Divide usages (Est.): 4
+[2024.03.08-08.54.25:683][170]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 4
+[2024.03.08-08.54.25:684][170]MaterialEditorStats: LWC Other usages (Est.): 4
+[2024.03.08-08.54.25:684][170]MaterialEditorStats: Shader Count: 1
+[2024.03.08-08.54.26:943][299]MaterialEditorStats: Texture samplers: 0/16
+[2024.03.08-08.54.26:943][299]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(6)
+[2024.03.08-08.54.26:943][299]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.03.08-08.54.26:943][299]MaterialEditorStats: LWC Divide usages (Est.): 4
+[2024.03.08-08.54.26:943][299]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 4
+[2024.03.08-08.54.26:943][299]MaterialEditorStats: LWC Other usages (Est.): 4
+[2024.03.08-08.54.26:943][299]MaterialEditorStats: Shader Count: 0
+[2024.03.08-08.54.27:413][339]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.03.08-08.54.27:413][339]MaterialEditorStats: Texture samplers: 0/16
+[2024.03.08-08.54.27:413][339]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(6)
+[2024.03.08-08.54.27:413][339]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.03.08-08.54.27:413][339]MaterialEditorStats: LWC Divide usages (Est.): 4
+[2024.03.08-08.54.27:413][339]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 4
+[2024.03.08-08.54.27:413][339]MaterialEditorStats: LWC Other usages (Est.): 4
+[2024.03.08-08.54.27:413][339]MaterialEditorStats: Shader Count: 3
+[2024.03.08-08.54.27:506][349]MaterialEditorStats: Base pass shader: 187 instructions
+[2024.03.08-08.54.27:506][349]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.03.08-08.54.27:506][349]MaterialEditorStats: Texture samplers: 2/16
+[2024.03.08-08.54.27:506][349]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(6)
+[2024.03.08-08.54.27:506][349]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.03.08-08.54.27:506][349]MaterialEditorStats: LWC Divide usages (Est.): 4
+[2024.03.08-08.54.27:506][349]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 4
+[2024.03.08-08.54.27:506][349]MaterialEditorStats: LWC Other usages (Est.): 4
+[2024.03.08-08.54.27:506][349]MaterialEditorStats: Shader Count: 4
+[2024.03.08-08.54.51:184][ 53]MaterialEditorStats: Texture samplers: 0/16
+[2024.03.08-08.54.51:184][ 53]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(6)
+[2024.03.08-08.54.51:184][ 53]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.03.08-08.54.51:184][ 53]MaterialEditorStats: LWC Divide usages (Est.): 4
+[2024.03.08-08.54.51:184][ 53]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 4
+[2024.03.08-08.54.51:184][ 53]MaterialEditorStats: LWC Other usages (Est.): 4
+[2024.03.08-08.54.51:184][ 53]MaterialEditorStats: Shader Count: 0
+[2024.03.08-08.54.51:845][114]MaterialEditorStats: Texture samplers: 1/16
+[2024.03.08-08.54.51:845][114]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(6)
+[2024.03.08-08.54.51:845][114]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.03.08-08.54.51:845][114]MaterialEditorStats: LWC Divide usages (Est.): 4
+[2024.03.08-08.54.51:845][114]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 4
+[2024.03.08-08.54.51:845][114]MaterialEditorStats: LWC Other usages (Est.): 4
+[2024.03.08-08.54.51:845][114]MaterialEditorStats: Shader Count: 1
+[2024.03.08-08.54.52:145][145]MaterialEditorStats: Base pass shader: 206 instructions
+[2024.03.08-08.54.52:145][145]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.03.08-08.54.52:146][145]MaterialEditorStats: Texture samplers: 3/16
+[2024.03.08-08.54.52:146][145]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(6)
+[2024.03.08-08.54.52:146][145]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.03.08-08.54.52:146][145]MaterialEditorStats: LWC Divide usages (Est.): 4
+[2024.03.08-08.54.52:146][145]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 4
+[2024.03.08-08.54.52:146][145]MaterialEditorStats: LWC Other usages (Est.): 4
+[2024.03.08-08.54.52:146][145]MaterialEditorStats: Shader Count: 4
+[2024.03.08-08.54.54:538][418]MaterialEditorStats: Texture samplers: 0/16
+[2024.03.08-08.54.54:538][418]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(6)
+[2024.03.08-08.54.54:538][418]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.03.08-08.54.54:538][418]MaterialEditorStats: LWC Divide usages (Est.): 4
+[2024.03.08-08.54.54:538][418]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 4
+[2024.03.08-08.54.54:538][418]MaterialEditorStats: LWC Other usages (Est.): 4
+[2024.03.08-08.54.54:538][418]MaterialEditorStats: Shader Count: 0
+[2024.03.08-08.54.54:904][450]MaterialEditorStats: Texture samplers: 1/16
+[2024.03.08-08.54.54:904][450]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(6)
+[2024.03.08-08.54.54:904][450]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.03.08-08.54.54:904][450]MaterialEditorStats: LWC Divide usages (Est.): 4
+[2024.03.08-08.54.54:904][450]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 4
+[2024.03.08-08.54.54:904][450]MaterialEditorStats: LWC Other usages (Est.): 4
+[2024.03.08-08.54.54:904][450]MaterialEditorStats: Shader Count: 1
+[2024.03.08-08.54.55:111][469]MaterialEditorStats: Base pass shader: 206 instructions
+[2024.03.08-08.54.55:112][469]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.03.08-08.54.55:112][469]MaterialEditorStats: Texture samplers: 3/16
+[2024.03.08-08.54.55:112][469]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(6)
+[2024.03.08-08.54.55:112][469]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.03.08-08.54.55:112][469]MaterialEditorStats: LWC Divide usages (Est.): 4
+[2024.03.08-08.54.55:112][469]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 4
+[2024.03.08-08.54.55:112][469]MaterialEditorStats: LWC Other usages (Est.): 4
+[2024.03.08-08.54.55:112][469]MaterialEditorStats: Shader Count: 4
+[2024.03.08-08.54.57:928][783]MaterialEditorStats: Texture samplers: 0/16
+[2024.03.08-08.54.57:928][783]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(6)
+[2024.03.08-08.54.57:928][783]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.03.08-08.54.57:928][783]MaterialEditorStats: LWC Divide usages (Est.): 4
+[2024.03.08-08.54.57:928][783]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 4
+[2024.03.08-08.54.57:928][783]MaterialEditorStats: LWC Other usages (Est.): 4
+[2024.03.08-08.54.57:928][783]MaterialEditorStats: Shader Count: 0
+[2024.03.08-08.54.58:320][816]MaterialEditorStats: Texture samplers: 1/16
+[2024.03.08-08.54.58:320][816]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(6)
+[2024.03.08-08.54.58:320][816]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.03.08-08.54.58:320][816]MaterialEditorStats: LWC Divide usages (Est.): 4
+[2024.03.08-08.54.58:320][816]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 4
+[2024.03.08-08.54.58:321][816]MaterialEditorStats: LWC Other usages (Est.): 4
+[2024.03.08-08.54.58:321][816]MaterialEditorStats: Shader Count: 1
+[2024.03.08-08.54.58:639][848]MaterialEditorStats: Base pass shader: 206 instructions
+[2024.03.08-08.54.58:639][848]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.03.08-08.54.58:640][848]MaterialEditorStats: Texture samplers: 3/16
+[2024.03.08-08.54.58:640][848]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(6)
+[2024.03.08-08.54.58:640][848]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.03.08-08.54.58:640][848]MaterialEditorStats: LWC Divide usages (Est.): 4
+[2024.03.08-08.54.58:640][848]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 4
+[2024.03.08-08.54.58:640][848]MaterialEditorStats: LWC Other usages (Est.): 4
+[2024.03.08-08.54.58:640][848]MaterialEditorStats: Shader Count: 4
+[2024.03.08-08.55.01:932][218]LogSlate: Window 'Color Picker' being destroyed
+[2024.03.08-08.55.01:945][218]MaterialEditorStats: Texture samplers: 0/16
+[2024.03.08-08.55.01:945][218]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(6)
+[2024.03.08-08.55.01:945][218]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.03.08-08.55.01:945][218]MaterialEditorStats: LWC Divide usages (Est.): 4
+[2024.03.08-08.55.01:945][218]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 4
+[2024.03.08-08.55.01:945][218]MaterialEditorStats: LWC Other usages (Est.): 4
+[2024.03.08-08.55.01:945][218]MaterialEditorStats: Shader Count: 0
+[2024.03.08-08.55.01:983][220]MaterialEditorStats: Base pass shader: 206 instructions
+[2024.03.08-08.55.01:983][220]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.03.08-08.55.01:983][220]MaterialEditorStats: Texture samplers: 3/16
+[2024.03.08-08.55.01:983][220]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(6)
+[2024.03.08-08.55.01:983][220]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.03.08-08.55.01:983][220]MaterialEditorStats: LWC Divide usages (Est.): 4
+[2024.03.08-08.55.01:983][220]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 4
+[2024.03.08-08.55.01:983][220]MaterialEditorStats: LWC Other usages (Est.): 4
+[2024.03.08-08.55.01:983][220]MaterialEditorStats: Shader Count: 4
+[2024.03.08-08.55.05:656][631]MaterialEditorStats: Texture samplers: 0/16
+[2024.03.08-08.55.05:656][631]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(6)
+[2024.03.08-08.55.05:656][631]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.03.08-08.55.05:656][631]MaterialEditorStats: LWC Divide usages (Est.): 4
+[2024.03.08-08.55.05:656][631]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 4
+[2024.03.08-08.55.05:656][631]MaterialEditorStats: LWC Other usages (Est.): 4
+[2024.03.08-08.55.05:656][631]MaterialEditorStats: Shader Count: 0
+[2024.03.08-08.55.06:044][666]MaterialEditorStats: Texture samplers: 1/16
+[2024.03.08-08.55.06:044][666]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(6)
+[2024.03.08-08.55.06:044][666]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.03.08-08.55.06:044][666]MaterialEditorStats: LWC Divide usages (Est.): 4
+[2024.03.08-08.55.06:044][666]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 4
+[2024.03.08-08.55.06:044][666]MaterialEditorStats: LWC Other usages (Est.): 4
+[2024.03.08-08.55.06:044][666]MaterialEditorStats: Shader Count: 1
+[2024.03.08-08.55.06:246][686]MaterialEditorStats: Base pass shader: 206 instructions
+[2024.03.08-08.55.06:246][686]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.03.08-08.55.06:246][686]MaterialEditorStats: Texture samplers: 3/16
+[2024.03.08-08.55.06:247][686]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(6)
+[2024.03.08-08.55.06:247][686]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.03.08-08.55.06:247][686]MaterialEditorStats: LWC Divide usages (Est.): 4
+[2024.03.08-08.55.06:247][686]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 4
+[2024.03.08-08.55.06:247][686]MaterialEditorStats: LWC Other usages (Est.): 4
+[2024.03.08-08.55.06:247][686]MaterialEditorStats: Shader Count: 4
+[2024.03.08-08.55.10:055][123]MaterialEditorStats: Texture samplers: 0/16
+[2024.03.08-08.55.10:055][123]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(6)
+[2024.03.08-08.55.10:055][123]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.03.08-08.55.10:055][123]MaterialEditorStats: LWC Divide usages (Est.): 4
+[2024.03.08-08.55.10:055][123]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 4
+[2024.03.08-08.55.10:055][123]MaterialEditorStats: LWC Other usages (Est.): 4
+[2024.03.08-08.55.10:055][123]MaterialEditorStats: Shader Count: 0
+[2024.03.08-08.55.10:441][155]MaterialEditorStats: Texture samplers: 1/16
+[2024.03.08-08.55.10:441][155]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(6)
+[2024.03.08-08.55.10:441][155]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.03.08-08.55.10:441][155]MaterialEditorStats: LWC Divide usages (Est.): 4
+[2024.03.08-08.55.10:441][155]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 4
+[2024.03.08-08.55.10:441][155]MaterialEditorStats: LWC Other usages (Est.): 4
+[2024.03.08-08.55.10:441][155]MaterialEditorStats: Shader Count: 1
+[2024.03.08-08.55.10:642][173]MaterialEditorStats: Base pass shader: 206 instructions
+[2024.03.08-08.55.10:642][173]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.03.08-08.55.10:642][173]MaterialEditorStats: Texture samplers: 3/16
+[2024.03.08-08.55.10:642][173]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(6)
+[2024.03.08-08.55.10:642][173]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.03.08-08.55.10:642][173]MaterialEditorStats: LWC Divide usages (Est.): 4
+[2024.03.08-08.55.10:642][173]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 4
+[2024.03.08-08.55.10:642][173]MaterialEditorStats: LWC Other usages (Est.): 4
+[2024.03.08-08.55.10:642][173]MaterialEditorStats: Shader Count: 4
+[2024.03.08-08.55.11:988][320]LogSlate: Window 'Color Picker' being destroyed
+[2024.03.08-08.55.12:001][320]MaterialEditorStats: Texture samplers: 0/16
+[2024.03.08-08.55.12:001][320]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(6)
+[2024.03.08-08.55.12:001][320]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.03.08-08.55.12:001][320]MaterialEditorStats: LWC Divide usages (Est.): 4
+[2024.03.08-08.55.12:001][320]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 4
+[2024.03.08-08.55.12:001][320]MaterialEditorStats: LWC Other usages (Est.): 4
+[2024.03.08-08.55.12:001][320]MaterialEditorStats: Shader Count: 0
+[2024.03.08-08.55.12:042][322]MaterialEditorStats: Base pass shader: 206 instructions
+[2024.03.08-08.55.12:042][322]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.03.08-08.55.12:042][322]MaterialEditorStats: Texture samplers: 3/16
+[2024.03.08-08.55.12:042][322]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(6)
+[2024.03.08-08.55.12:042][322]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.03.08-08.55.12:042][322]MaterialEditorStats: LWC Divide usages (Est.): 4
+[2024.03.08-08.55.12:042][322]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 4
+[2024.03.08-08.55.12:042][322]MaterialEditorStats: LWC Other usages (Est.): 4
+[2024.03.08-08.55.12:042][322]MaterialEditorStats: Shader Count: 4
+[2024.03.08-08.55.13:790][513]LogMaterialEditor: Applying material M_Blockout
+[2024.03.08-08.55.13:845][513]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2024.03.08-08.55.14:378][513]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2024.03.08-08.55.15:771][671]LogMaterialEditor: Saving and Compiling material M_Blockout
+[2024.03.08-08.55.15:774][671]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.08-08.55.16:809][671]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/M_Blockout" FILE="../../../../../Unreal/WISE23/SoSe2024/SoSe24/Content/Materials/M_Blockout.uasset" SILENT=true
+[2024.03.08-08.55.16:812][671]LogSavePackage: Moving output files for package: /Game/Materials/M_Blockout
+[2024.03.08-08.55.16:813][671]LogSavePackage: Moving '../../../../../Unreal/WISE23/SoSe2024/SoSe24/Saved/M_Blockout1FB6BA0648D76057A094D495DB0A949D.tmp' to '../../../../../Unreal/WISE23/SoSe2024/SoSe24/Content/Materials/M_Blockout.uasset'
+[2024.03.08-08.55.16:822][671]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.04 sec (total: 4.42 sec)
+[2024.03.08-08.55.16:823][671]AssetCheck: New page: Asset Save: M_Blockout
+[2024.03.08-08.55.16:823][671]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Materials/M_Blockout.M_Blockout
+[2024.03.08-08.55.16:823][671]MaterialEditorStats: Base pass shader: 206 instructions
+[2024.03.08-08.55.16:823][671]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.03.08-08.55.16:823][671]MaterialEditorStats: MaxSampler: 255 instructions
+[2024.03.08-08.55.16:823][671]MaterialEditorStats: Texture samplers: 4/16
+[2024.03.08-08.55.16:823][671]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(6)
+[2024.03.08-08.55.16:823][671]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.03.08-08.55.16:823][671]MaterialEditorStats: LWC Divide usages (Est.): 4
+[2024.03.08-08.55.16:823][671]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 4
+[2024.03.08-08.55.16:824][671]MaterialEditorStats: LWC Other usages (Est.): 4
+[2024.03.08-08.55.16:824][671]MaterialEditorStats: Shader Count: 16
+[2024.03.08-08.55.35:160][528]MaterialEditorStats: Texture samplers: 0/16
+[2024.03.08-08.55.35:160][528]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(6)
+[2024.03.08-08.55.35:160][528]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.03.08-08.55.35:160][528]MaterialEditorStats: LWC Divide usages (Est.): 4
+[2024.03.08-08.55.35:160][528]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 4
+[2024.03.08-08.55.35:160][528]MaterialEditorStats: LWC Other usages (Est.): 4
+[2024.03.08-08.55.35:160][528]MaterialEditorStats: Shader Count: 0
+[2024.03.08-08.55.35:573][565]MaterialEditorStats: Texture samplers: 1/16
+[2024.03.08-08.55.35:573][565]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(6)
+[2024.03.08-08.55.35:573][565]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.03.08-08.55.35:573][565]MaterialEditorStats: LWC Divide usages (Est.): 4
+[2024.03.08-08.55.35:573][565]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 4
+[2024.03.08-08.55.35:573][565]MaterialEditorStats: LWC Other usages (Est.): 4
+[2024.03.08-08.55.35:573][565]MaterialEditorStats: Shader Count: 1
+[2024.03.08-08.55.35:783][587]MaterialEditorStats: Base pass shader: 206 instructions
+[2024.03.08-08.55.35:783][587]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.03.08-08.55.35:783][587]MaterialEditorStats: Texture samplers: 3/16
+[2024.03.08-08.55.35:783][587]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(6)
+[2024.03.08-08.55.35:783][587]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.03.08-08.55.35:783][587]MaterialEditorStats: LWC Divide usages (Est.): 4
+[2024.03.08-08.55.35:783][587]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 4
+[2024.03.08-08.55.35:783][587]MaterialEditorStats: LWC Other usages (Est.): 4
+[2024.03.08-08.55.35:783][587]MaterialEditorStats: Shader Count: 4
+[2024.03.08-08.55.36:097][615]LogSlate: Window 'Color Picker' being destroyed
+[2024.03.08-08.55.36:108][615]MaterialEditorStats: Texture samplers: 0/16
+[2024.03.08-08.55.36:109][615]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(6)
+[2024.03.08-08.55.36:109][615]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.03.08-08.55.36:109][615]MaterialEditorStats: LWC Divide usages (Est.): 4
+[2024.03.08-08.55.36:109][615]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 4
+[2024.03.08-08.55.36:109][615]MaterialEditorStats: LWC Other usages (Est.): 4
+[2024.03.08-08.55.36:109][615]MaterialEditorStats: Shader Count: 0
+[2024.03.08-08.55.36:148][617]MaterialEditorStats: Base pass shader: 206 instructions
+[2024.03.08-08.55.36:148][617]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.03.08-08.55.36:148][617]MaterialEditorStats: Texture samplers: 3/16
+[2024.03.08-08.55.36:148][617]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(6)
+[2024.03.08-08.55.36:148][617]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.03.08-08.55.36:148][617]MaterialEditorStats: LWC Divide usages (Est.): 4
+[2024.03.08-08.55.36:148][617]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 4
+[2024.03.08-08.55.36:148][617]MaterialEditorStats: LWC Other usages (Est.): 4
+[2024.03.08-08.55.36:148][617]MaterialEditorStats: Shader Count: 4
+[2024.03.08-08.55.37:582][780]LogMaterialEditor: Applying material M_Blockout
+[2024.03.08-08.55.37:637][780]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2024.03.08-08.55.38:165][780]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2024.03.08-08.55.39:676][948]LogMaterialEditor: Saving and Compiling material M_Blockout
+[2024.03.08-08.55.39:679][948]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.08-08.55.40:633][948]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/M_Blockout" FILE="../../../../../Unreal/WISE23/SoSe2024/SoSe24/Content/Materials/M_Blockout.uasset" SILENT=true
+[2024.03.08-08.55.40:636][948]LogSavePackage: Moving output files for package: /Game/Materials/M_Blockout
+[2024.03.08-08.55.40:637][948]LogSavePackage: Moving '../../../../../Unreal/WISE23/SoSe2024/SoSe24/Saved/M_Blockout79CD40FE4533E401D899468A34336F2A.tmp' to '../../../../../Unreal/WISE23/SoSe2024/SoSe24/Content/Materials/M_Blockout.uasset'
+[2024.03.08-08.55.40:646][948]LogFileHelpers: InternalPromptForCheckoutAndSave took 967 ms (total: 5.38 sec)
+[2024.03.08-08.55.40:647][948]AssetCheck: New page: Asset Save: M_Blockout
+[2024.03.08-08.55.40:647][948]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Materials/M_Blockout.M_Blockout
+[2024.03.08-08.55.40:648][948]MaterialEditorStats: Base pass shader: 206 instructions
+[2024.03.08-08.55.40:648][948]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.03.08-08.55.40:648][948]MaterialEditorStats: MaxSampler: 255 instructions
+[2024.03.08-08.55.40:648][948]MaterialEditorStats: Texture samplers: 4/16
+[2024.03.08-08.55.40:648][948]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(6)
+[2024.03.08-08.55.40:648][948]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.03.08-08.55.40:648][948]MaterialEditorStats: LWC Divide usages (Est.): 4
+[2024.03.08-08.55.40:648][948]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 4
+[2024.03.08-08.55.40:648][948]MaterialEditorStats: LWC Other usages (Est.): 4
+[2024.03.08-08.55.40:648][948]MaterialEditorStats: Shader Count: 16
